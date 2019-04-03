@@ -1,4 +1,4 @@
-# BR_Robot_Framework_Exercise
+# BR Robot Framework and Python Coding Exercise
 
 
 ## Getting Started
