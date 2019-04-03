@@ -12,11 +12,7 @@ Test Teardown  End Web Test
 
 *** Variables ***
 
-#${BROWSER}   headlesschrome
 ${BROWSER}   chrome
-
-
-
 
 
 *** Test Cases ***
