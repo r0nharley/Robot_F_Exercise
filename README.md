@@ -5,6 +5,10 @@
 
 These instructions will help get a copy of the project up and running on your local machine for development and testing purposes. 
 
+
+I've previously created Robot Framework test environment with docker. It can be found <a href="https://hub.docker.com/r/rharley77/robotframework_ff_chrome">here</a> and includes all of the prerequisites listed below.  
+
+
 ### Prerequisites
 
 
