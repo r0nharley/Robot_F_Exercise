@@ -83,14 +83,14 @@ Menu Item Count
     ${Expected_Menu_Items_Num}=  Create List    ${32}    ${81}    ${30}    ${246}    ${30}    ${31}    ${89}    ${7}    ${2}    ${2}    ${0}    ${2}    ${2}    ${4}
     ${Actual_Menu_Items_Num}=   Create List
     :FOR   ${ELEMENT}    IN    @{ITEMS}
-    \   Set Window Size  2000  800
+    \    Set Window Size  2000  800
     \    Log    ${ELEMENT}
     \    Mouse Over  ${ELEMENT}
     \    ${count}=  Get Element Count   ${nav_menu_items}
     \    Log to console   ${count}
     \    Append To List  ${Actual_Menu_Items_Num}  ${count}
     :FOR   ${ELEMENT}    IN    @{ITEMS2}
-    \   Set Window Size  2000  800
+    \    Set Window Size  2000  800
     \    Log    ${ELEMENT}
     \    Mouse Over  ${ELEMENT}
     \    ${count}=  Get Element Count   ${nav_menu_2}
