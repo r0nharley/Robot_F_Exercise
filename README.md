@@ -1,7 +1,7 @@
 # BR Robot Framework and Python Coding Exercise
 
 
-## Getting Started
+## Robot Framework
 
 These instructions will help get a copy of the project up and running on your local machine for development and testing purposes. 
 
@@ -65,3 +65,8 @@ results/log.html
 ```
 results/results.html
 ```
+
+
+## Python Coding Exercise
+
+The coding exercise can be found <a href="https://github.com/rharley77/BR_Robot_Framework_Exercise/blob/master/CommonWordsFunction">here</a>
