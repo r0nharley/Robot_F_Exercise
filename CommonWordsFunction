@@ -1,0 +1,19 @@
+def common_words(a, b):
+    '''
+    DOCSTRING: This function that takes in two lists of words and returns a list of the words common to both original lists.
+    INPUT: Two lists
+    OUTPUT: A list of words that intersect. "There no common words", is returned if there is no intersection.
+    '''
+
+    common_a = set(a)
+    common_b = set(b)
+    if (common_a & common_b):
+        return list(common_a & common_b)
+    else:
+        return ("There are no common words")
+
+
+# Driving Code
+a = ['apple', 'orange', 'grape', 'banana']
+b = ['plum', 'peach', 'apple', 'mango', 'grape']
+common_words(a, b)
