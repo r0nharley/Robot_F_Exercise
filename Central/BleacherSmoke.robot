@@ -135,7 +135,7 @@ League_Category_Landing_Pages
 
 Non_League_Category_Landing_Pages
     [Tags]  Non League Category Landing Pages
-    [Documentation]  Uses a loop to click on each of the Non League Categories in the menu and confirms that the landing page is displayed.
+    [Documentation]  Clicks on each of the Non League Categories in the menu and confirms that the landing page is displayed.
     Set Window Size  2000  800
     Wait Until Element is Visible  ${brlive_header}    ${default_timeout}
     Click Element   ${brlive_header}
