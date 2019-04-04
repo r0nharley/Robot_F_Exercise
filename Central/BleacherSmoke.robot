@@ -23,7 +23,7 @@ Navigate_To_Page
 
 Sign_Up/Login
     [Tags]  Sign Up
-    [Documentation]  Creates a user and goes through the sign up workflow.
+    [Documentation]  Creates a user and goes through the sign up workflow, Signs out of the application, and signs back in with the new user
     [Arguments]  ${FIRST_N}  ${LAST_N}  ${MONTH}  ${DAY}  ${YEAR}
     ${first_name}=  Set Variable  ${FIRST_N}
     ${last_name}=  Set Variable  ${LAST_N}
@@ -117,7 +117,7 @@ Menu_Item_Count
 
 League_Category_Landing_Pages
     [Tags]  League Category Landing Pages
-    [Documentation]  Uses a loop to clicks on each of the League Category Headers, confirms that the category landing page is displayed, writes category hearder name to a list, and compares that list to a know good list of category headers.
+    [Documentation]  Uses a loop to clicks on each of the League Categories in the menu and confirms that the category landing page is displayed. Writes each category header name to a list, and compares that list to a know good list of landing page category headers.
     @{ITEMS}  Create List  ${nfl_header}    ${cfb_header}    ${nba_header}    ${world_fb_header}    ${mlb_header}    ${nhl_header}    ${cbb_header}    ${mma_header}    ${wwe_header}    ${golf_header}    ${tennis_header}    ${boxing_header}
     ${Expected_Headers}  Create List    NFL    COLLEGE FOOTBALL    NBA    WORLD FOOTBALL    MLB    NHL    COLLEGE BASKETBALL    MMA    WWE    GOLF    TENNIS    BOXING
     ${Actual_Headers}=   Create List
@@ -135,7 +135,7 @@ League_Category_Landing_Pages
 
 Non_League_Category_Landing_Pages
     [Tags]  Non League Category Landing Pages
-    [Documentation]  Clicks on each of the Non League Categories and confirms that the landing page is displayed.
+    [Documentation]  Uses a loop to click on each of the Non League Categories in the menu and confirms that the landing page is displayed.
     Set Window Size  2000  800
     Wait Until Element is Visible  ${brlive_header}    ${default_timeout}
     Click Element   ${brlive_header}
