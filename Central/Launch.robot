@@ -22,28 +22,28 @@ Navigate to Page
     Log To Console  Navigating to Bleacher Report
     BleacherSmoke.Navigate to Page
 
-Signup Test
+New User Signup/Login Test
     Log To Console  Sign up for Bleacher Report
-    BleacherSmoke.Navigate to Page
-    BleacherSmoke.Sign Up  Hello  World  11  12   1985
+    BleacherSmoke.Navigate_To_Page
+    BleacherSmoke.Sign_Up/Login  Hello  World  11  12  1985
 
-Login Test
+Existing User Login Test
     Log To Console  Log into Bleacher Report
-    BleacherSmoke.Navigate To Page
-    BleacherSmoke.Login  rharley77@gmail.com   test1234
+    BleacherSmoke.Navigate_To_Page
+    BleacherSmoke.Existing_User_Login  Yl4BGztY@gmail.com   tknbip0R
 
 Nav Menu Item Test
     Log To Console  Sub menu item count
-    BleacherSmoke.Navigate To Page
-    BleacherSmoke.Menu Item Count
+    BleacherSmoke.Navigate_To_Page
+    BleacherSmoke.Menu_Item_Count
 
 League Category Landing Page Test
     Log To Console  League Category Landing
-    BleacherSmoke.Navigate To Page
-    BleacherSmoke.League Category Landing Pages
+    BleacherSmoke.Navigate_To_Page
+    BleacherSmoke.League_Category_Landing_Pages
 
 Non League Categories Landing Page Test
     Log To Console  Non League Category Landing
-    BleacherSmoke.Navigate To Page
-    BleacherSmoke.Non League Categories
+    BleacherSmoke.Navigate_To_Page
+    BleacherSmoke.Non_League_Categories
 

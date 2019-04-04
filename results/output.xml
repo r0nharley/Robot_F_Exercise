@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.6.4 on darwin)" generated="20190403 18:49:26.157">
+<robot generator="Robot 3.0.4 (Python 3.6.4 on darwin)" generated="20190404 13:33:50.279">
 <suite id="s1" name="Launch" source="/Users/ronharley/AutomatedTests/BleacherReport/Central/Launch.robot">
 <test id="s1-t1" name="Navigate to Page">
 <kw name="Begin Web Test" library="Common" type="setup">
@@ -9,19 +9,19 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:26.349" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20190403 18:49:26.349" endtime="20190403 18:49:28.348"></status>
+<msg timestamp="20190404 13:33:50.473" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20190404 13:33:50.473" endtime="20190404 13:33:52.402"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:26.349" endtime="20190403 18:49:28.348"></status>
+<status status="PASS" starttime="20190404 13:33:50.473" endtime="20190404 13:33:52.403"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Navigating to Bleacher Report</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:28.349" endtime="20190403 18:49:28.350"></status>
+<status status="PASS" starttime="20190404 13:33:52.404" endtime="20190404 13:33:52.404"></status>
 </kw>
-<kw name="Navigate To Page" library="BleacherSmoke">
+<kw name="Navigate_To_Page" library="BleacherSmoke">
 <tags>
 <tag>Go to BleacherReport url</tag>
 </tags>
@@ -30,32 +30,32 @@
 <arguments>
 <arg>Navigating to BleacherReport.com</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:28.350" endtime="20190403 18:49:28.351"></status>
+<status status="PASS" starttime="20190404 13:33:52.405" endtime="20190404 13:33:52.405"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>${br_url}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:28.351" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
-<status status="PASS" starttime="20190403 18:49:28.351" endtime="20190403 18:49:34.050"></status>
+<msg timestamp="20190404 13:33:52.406" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
+<status status="PASS" starttime="20190404 13:33:52.406" endtime="20190404 13:33:57.670"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190403 18:49:34.051" endtime="20190403 18:49:34.426"></status>
+<status status="PASS" starttime="20190404 13:33:57.670" endtime="20190404 13:33:57.948"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:28.350" endtime="20190403 18:49:34.426"></status>
+<status status="PASS" starttime="20190404 13:33:52.404" endtime="20190404 13:33:57.949"></status>
 </kw>
 <kw name="End Web Test" library="Common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190403 18:49:34.427" endtime="20190403 18:49:34.642"></status>
+<status status="PASS" starttime="20190404 13:33:57.950" endtime="20190404 13:33:58.106"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:34.427" endtime="20190403 18:49:34.642"></status>
+<status status="PASS" starttime="20190404 13:33:57.949" endtime="20190404 13:33:58.107"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:26.348" endtime="20190403 18:49:34.642" critical="yes"></status>
+<status status="PASS" starttime="20190404 13:33:50.472" endtime="20190404 13:33:58.107" critical="yes"></status>
 </test>
-<test id="s1-t2" name="Signup Test">
+<test id="s1-t2" name="New User Signup/Login Test">
 <kw name="Begin Web Test" library="Common" type="setup">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -63,19 +63,19 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:34.644" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20190403 18:49:34.644" endtime="20190403 18:49:36.622"></status>
+<msg timestamp="20190404 13:33:58.109" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20190404 13:33:58.109" endtime="20190404 13:33:59.957"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:34.643" endtime="20190403 18:49:36.622"></status>
+<status status="PASS" starttime="20190404 13:33:58.108" endtime="20190404 13:33:59.958"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Sign up for Bleacher Report</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:36.623" endtime="20190403 18:49:36.623"></status>
+<status status="PASS" starttime="20190404 13:33:59.958" endtime="20190404 13:33:59.958"></status>
 </kw>
-<kw name="Navigate To Page" library="BleacherSmoke">
+<kw name="Navigate_To_Page" library="BleacherSmoke">
 <tags>
 <tag>Go to BleacherReport url</tag>
 </tags>
@@ -84,23 +84,23 @@
 <arguments>
 <arg>Navigating to BleacherReport.com</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:36.624" endtime="20190403 18:49:36.624"></status>
+<status status="PASS" starttime="20190404 13:33:59.959" endtime="20190404 13:33:59.959"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>${br_url}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:36.625" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
-<status status="PASS" starttime="20190403 18:49:36.624" endtime="20190403 18:49:43.653"></status>
+<msg timestamp="20190404 13:33:59.960" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
+<status status="PASS" starttime="20190404 13:33:59.959" endtime="20190404 13:34:05.089"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190403 18:49:43.653" endtime="20190403 18:49:43.973"></status>
+<status status="PASS" starttime="20190404 13:34:05.090" endtime="20190404 13:34:05.365"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:36.624" endtime="20190403 18:49:43.973"></status>
+<status status="PASS" starttime="20190404 13:33:59.959" endtime="20190404 13:34:05.365"></status>
 </kw>
-<kw name="Sign Up" library="BleacherSmoke">
+<kw name="Sign_Up/Login" library="BleacherSmoke">
 <tags>
 <tag>Sign Up</tag>
 </tags>
@@ -120,8 +120,8 @@
 <assign>
 <var>${first_name}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.975" level="INFO">${first_name} = Hello</msg>
-<status status="PASS" starttime="20190403 18:49:43.975" endtime="20190403 18:49:43.975"></status>
+<msg timestamp="20190404 13:34:05.366" level="INFO">${first_name} = Hello</msg>
+<status status="PASS" starttime="20190404 13:34:05.366" endtime="20190404 13:34:05.366"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -131,8 +131,8 @@
 <assign>
 <var>${last_name}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.976" level="INFO">${last_name} = World</msg>
-<status status="PASS" starttime="20190403 18:49:43.975" endtime="20190403 18:49:43.976"></status>
+<msg timestamp="20190404 13:34:05.367" level="INFO">${last_name} = World</msg>
+<status status="PASS" starttime="20190404 13:34:05.367" endtime="20190404 13:34:05.367"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -142,8 +142,8 @@
 <assign>
 <var>${birth_month}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.976" level="INFO">${birth_month} = 11</msg>
-<status status="PASS" starttime="20190403 18:49:43.976" endtime="20190403 18:49:43.976"></status>
+<msg timestamp="20190404 13:34:05.367" level="INFO">${birth_month} = 11</msg>
+<status status="PASS" starttime="20190404 13:34:05.367" endtime="20190404 13:34:05.367"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -153,8 +153,8 @@
 <assign>
 <var>${birth_date}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.976" level="INFO">${birth_date} = 12</msg>
-<status status="PASS" starttime="20190403 18:49:43.976" endtime="20190403 18:49:43.976"></status>
+<msg timestamp="20190404 13:34:05.368" level="INFO">${birth_date} = 12</msg>
+<status status="PASS" starttime="20190404 13:34:05.367" endtime="20190404 13:34:05.368"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -164,8 +164,8 @@
 <assign>
 <var>${birth_year}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.977" level="INFO">${birth_year} = 1985</msg>
-<status status="PASS" starttime="20190403 18:49:43.977" endtime="20190403 18:49:43.977"></status>
+<msg timestamp="20190404 13:34:05.368" level="INFO">${birth_year} = 1985</msg>
+<status status="PASS" starttime="20190404 13:34:05.368" endtime="20190404 13:34:05.368"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -175,8 +175,8 @@
 <assign>
 <var>${user_random_string}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.977" level="INFO">${user_random_string} = GDOgBxno</msg>
-<status status="PASS" starttime="20190403 18:49:43.977" endtime="20190403 18:49:43.977"></status>
+<msg timestamp="20190404 13:34:05.368" level="INFO">${user_random_string} = fJJqEqnU</msg>
+<status status="PASS" starttime="20190404 13:34:05.368" endtime="20190404 13:34:05.368"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -186,8 +186,8 @@
 <assign>
 <var>${email_random_string}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.978" level="INFO">${email_random_string} = B89fvuOr</msg>
-<status status="PASS" starttime="20190403 18:49:43.977" endtime="20190403 18:49:43.978"></status>
+<msg timestamp="20190404 13:34:05.369" level="INFO">${email_random_string} = nyALuy5m</msg>
+<status status="PASS" starttime="20190404 13:34:05.368" endtime="20190404 13:34:05.369"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -197,16 +197,16 @@
 <assign>
 <var>${pw_random_string}</var>
 </assign>
-<msg timestamp="20190403 18:49:43.978" level="INFO">${pw_random_string} = Sp5ZbEDO</msg>
-<status status="PASS" starttime="20190403 18:49:43.978" endtime="20190403 18:49:43.978"></status>
+<msg timestamp="20190404 13:34:05.369" level="INFO">${pw_random_string} = RvJDTJ3S</msg>
+<status status="PASS" starttime="20190404 13:34:05.369" endtime="20190404 13:34:05.369"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${sign_up_button_header}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:43.979" level="INFO">Clicking element '//a[contains(@class,'sign-up')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:43.978" endtime="20190403 18:49:45.149"></status>
+<msg timestamp="20190404 13:34:05.369" level="INFO">Clicking element '//a[contains(@class,'sign-up')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:05.369" endtime="20190404 13:34:06.410"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -214,15 +214,15 @@
 <arg>${sign_up_with_email_btn}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:45.149" endtime="20190403 18:49:45.174"></status>
+<status status="PASS" starttime="20190404 13:34:06.410" endtime="20190404 13:34:06.432"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${sign_up_with_email_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.174" level="INFO">Clicking element '//button[contains(.,'Sign up with Email')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.174" endtime="20190403 18:49:45.265"></status>
+<msg timestamp="20190404 13:34:06.432" level="INFO">Clicking element '//button[contains(.,'Sign up with Email')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.432" endtime="20190404 13:34:06.515"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -230,15 +230,15 @@
 <arg>${email_signup_modal_header}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:45.266" endtime="20190403 18:49:45.295"></status>
+<status status="PASS" starttime="20190404 13:34:06.515" endtime="20190404 13:34:06.541"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${first_name_field}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.295" level="INFO">Clicking element '//input[contains(@name,'first_name')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.295" endtime="20190403 18:49:45.375"></status>
+<msg timestamp="20190404 13:34:06.542" level="INFO">Clicking element '//input[contains(@name,'first_name')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.542" endtime="20190404 13:34:06.587"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -246,16 +246,16 @@
 <arg>${first_name_field}</arg>
 <arg>${first_name}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.376" level="INFO">Typing text 'Hello' into text field '//input[contains(@name,'first_name')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.375" endtime="20190403 18:49:45.471"></status>
+<msg timestamp="20190404 13:34:06.587" level="INFO">Typing text 'Hello' into text field '//input[contains(@name,'first_name')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.587" endtime="20190404 13:34:06.677"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${last_name_field}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.471" level="INFO">Clicking element '//input[contains(@name,'last_name')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.471" endtime="20190403 18:49:45.513"></status>
+<msg timestamp="20190404 13:34:06.677" level="INFO">Clicking element '//input[contains(@name,'last_name')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.677" endtime="20190404 13:34:06.727"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -263,16 +263,16 @@
 <arg>${last_name_field}</arg>
 <arg>${last_name}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.514" level="INFO">Typing text 'World' into text field '//input[contains(@name,'last_name')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.514" endtime="20190403 18:49:45.569"></status>
+<msg timestamp="20190404 13:34:06.728" level="INFO">Typing text 'World' into text field '//input[contains(@name,'last_name')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.727" endtime="20190404 13:34:06.789"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${continue_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.570" level="INFO">Clicking element '//button[contains(.,'Continue')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.569" endtime="20190403 18:49:45.639"></status>
+<msg timestamp="20190404 13:34:06.789" level="INFO">Clicking element '//button[contains(.,'Continue')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.789" endtime="20190404 13:34:06.853"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -280,7 +280,7 @@
 <arg>${username_modal_header}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:45.639" endtime="20190403 18:49:45.662"></status>
+<status status="PASS" starttime="20190404 13:34:06.853" endtime="20190404 13:34:06.877"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -288,30 +288,46 @@
 <arg>${user_name_field}</arg>
 <arg>${user_random_string}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:45.662" level="INFO">Typing text 'GDOgBxno' into text field '//input[contains(@name,'username')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:45.662" endtime="20190403 18:49:45.742"></status>
+<msg timestamp="20190404 13:34:06.877" level="INFO">Typing text 'fJJqEqnU' into text field '//input[contains(@name,'username')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.877" endtime="20190404 13:34:06.950"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${continue_btn}</arg>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:06.950" endtime="20190404 13:34:06.966"></status>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <doc>Sets the delay that is waited after each Selenium command.</doc>
 <arguments>
-<arg>0.1</arg>
+<arg>0.2</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:45.742" endtime="20190403 18:49:45.742"></status>
-</kw>
-<kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
-<doc>Waits until element ``locator`` is enabled.</doc>
-<arguments>
-<arg>${continue_btn}</arg>
-</arguments>
-<status status="PASS" starttime="20190403 18:49:45.742" endtime="20190403 18:49:46.073"></status>
+<status status="PASS" starttime="20190404 13:34:06.966" endtime="20190404 13:34:06.967"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>${continue_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:46.073" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:46.073" endtime="20190403 18:49:46.723"></status>
+<msg timestamp="20190404 13:34:06.967" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:06.967" endtime="20190404 13:34:08.119"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.0</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:08.119" endtime="20190404 13:34:08.120"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${continue_btn}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:08.120" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.120" endtime="20190404 13:34:08.186"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -319,7 +335,7 @@
 <arg>${signup_email_modal_header}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:46.724" endtime="20190403 18:49:47.286"></status>
+<status status="PASS" starttime="20190404 13:34:08.186" endtime="20190404 13:34:08.205"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -327,25 +343,25 @@
 <arg>${email_field}</arg>
 <arg>${email_random_string}${gmail_email}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:47.286" level="INFO">Typing text 'B89fvuOr@gmail.com' into text field '//input[contains(@name,'email')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:47.286" endtime="20190403 18:49:47.701"></status>
+<msg timestamp="20190404 13:34:08.206" level="INFO">Typing text 'nyALuy5m@gmail.com' into text field '//input[contains(@name,'email')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.206" endtime="20190404 13:34:08.298"></status>
 </kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
 <arguments>
 <arg>${password_field}</arg>
 <arg>${pw_random_string}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:47.702" level="INFO">Typing text 'Sp5ZbEDO' into text field '//input[contains(@name,'password')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:47.702" endtime="20190403 18:49:48.101"></status>
+<msg timestamp="20190404 13:34:08.299" level="INFO">Typing password into text field '//input[contains(@name,'password')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.298" endtime="20190404 13:34:08.375"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>${continue_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:48.102" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:48.102" endtime="20190403 18:49:48.682"></status>
+<msg timestamp="20190404 13:34:08.375" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.375" endtime="20190404 13:34:08.412"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -353,7 +369,7 @@
 <arg>${bday_modal_header}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:48.683" endtime="20190403 18:49:49.224"></status>
+<status status="PASS" starttime="20190404 13:34:08.412" endtime="20190404 13:34:08.861"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -361,8 +377,8 @@
 <arg>${birthday_month_field}</arg>
 <arg>${birth_month}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:49.224" level="INFO">Typing text '11' into text field '//input[contains(@name,'birthmonth')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:49.224" endtime="20190403 18:49:49.594"></status>
+<msg timestamp="20190404 13:34:08.862" level="INFO">Typing text '11' into text field '//input[contains(@name,'birthmonth')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.861" endtime="20190404 13:34:08.919"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -370,8 +386,8 @@
 <arg>${birthday_day_field}</arg>
 <arg>${birth_date}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:49.594" level="INFO">Typing text '12' into text field '//input[contains(@name,'birthday')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:49.594" endtime="20190403 18:49:49.962"></status>
+<msg timestamp="20190404 13:34:08.920" level="INFO">Typing text '12' into text field '//input[contains(@name,'birthday')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.919" endtime="20190404 13:34:08.974"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -379,16 +395,16 @@
 <arg>${birthday_year_field}</arg>
 <arg>${birth_year}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:49.962" level="INFO">Typing text '1985' into text field '//input[contains(@name,'birthyear')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:49.962" endtime="20190403 18:49:50.333"></status>
+<msg timestamp="20190404 13:34:08.975" level="INFO">Typing text '1985' into text field '//input[contains(@name,'birthyear')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:08.974" endtime="20190404 13:34:09.034"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>${continue_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:50.334" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:50.334" endtime="20190403 18:49:50.925"></status>
+<msg timestamp="20190404 13:34:09.035" level="INFO">Clicking button '//button[contains(.,'Continue')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:09.035" endtime="20190404 13:34:09.090"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -396,7 +412,7 @@
 <arg>${verification_email_sent}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:50.926" endtime="20190403 18:49:51.163"></status>
+<status status="PASS" starttime="20190404 13:34:09.091" endtime="20190404 13:34:09.323"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -404,20 +420,117 @@
 <arg>${new_user_loggedin}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:51.163" endtime="20190403 18:49:51.394"></status>
+<status status="PASS" starttime="20190404 13:34:09.323" endtime="20190404 13:34:09.344"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:43.974" endtime="20190403 18:49:51.394"></status>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>${new_user_loggedin}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:09.344" level="INFO">Simulating Mouse Over on element '//li[contains(.,'HelloProfileSettingsLogoutEdition')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:09.344" endtime="20190404 13:34:09.363"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${logout_btn}</arg>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:09.363" endtime="20190404 13:34:09.382"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${logout_btn}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:09.382" level="INFO">Clicking element '//a[contains(.,'Logout')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:09.382" endtime="20190404 13:34:10.179"></status>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is not visible.</doc>
+<arguments>
+<arg>${new_user_loggedin}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:10.179" endtime="20190404 13:34:10.186"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${login_button_header}</arg>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:10.186" endtime="20190404 13:34:10.205"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${login_button_header}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:10.206" level="INFO">Clicking element '//a[contains(@class,'login')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:10.206" endtime="20190404 13:34:11.339"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${signin_with_email_btn}</arg>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:11.339" endtime="20190404 13:34:11.360"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${signin_with_email_btn}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:11.360" level="INFO">Clicking element '//button[contains(.,'Sign in with Email')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:11.360" endtime="20190404 13:34:11.428"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email_field}</arg>
+<arg>${email_random_string}${gmail_email}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:11.429" level="INFO">Typing text 'nyALuy5m@gmail.com' into text field '//input[contains(@name,'email')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:11.429" endtime="20190404 13:34:11.548"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${password_field}</arg>
+<arg>${pw_random_string}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:11.548" level="INFO">Typing password into text field '//input[contains(@name,'password')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:11.548" endtime="20190404 13:34:11.633"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${signin_btn}</arg>
+</arguments>
+<msg timestamp="20190404 13:34:11.634" level="INFO">Clicking button '//button[contains(.,'Sign In')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:11.634" endtime="20190404 13:34:11.694"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${new_user_loggedin}</arg>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:34:11.694" endtime="20190404 13:34:14.967"></status>
+</kw>
+<status status="PASS" starttime="20190404 13:34:05.366" endtime="20190404 13:34:14.968"></status>
 </kw>
 <kw name="End Web Test" library="Common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190403 18:49:51.395" endtime="20190403 18:49:51.557"></status>
+<status status="PASS" starttime="20190404 13:34:14.968" endtime="20190404 13:34:15.133"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:51.394" endtime="20190403 18:49:51.557"></status>
+<status status="PASS" starttime="20190404 13:34:14.968" endtime="20190404 13:34:15.134"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:34.643" endtime="20190403 18:49:51.558" critical="yes"></status>
+<status status="PASS" starttime="20190404 13:33:58.108" endtime="20190404 13:34:15.134" critical="yes"></status>
 </test>
-<test id="s1-t3" name="Login Test">
+<test id="s1-t3" name="Existing User Login Test">
 <kw name="Begin Web Test" library="Common" type="setup">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -425,19 +538,19 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:51.560" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20190403 18:49:51.560" endtime="20190403 18:49:53.624"></status>
+<msg timestamp="20190404 13:34:15.135" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20190404 13:34:15.135" endtime="20190404 13:34:17.017"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:51.559" endtime="20190403 18:49:53.625"></status>
+<status status="PASS" starttime="20190404 13:34:15.135" endtime="20190404 13:34:17.017"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Log into Bleacher Report</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:53.626" endtime="20190403 18:49:53.626"></status>
+<status status="PASS" starttime="20190404 13:34:17.018" endtime="20190404 13:34:17.018"></status>
 </kw>
-<kw name="Navigate To Page" library="BleacherSmoke">
+<kw name="Navigate_To_Page" library="BleacherSmoke">
 <tags>
 <tag>Go to BleacherReport url</tag>
 </tags>
@@ -446,30 +559,30 @@
 <arguments>
 <arg>Navigating to BleacherReport.com</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:49:53.627" endtime="20190403 18:49:53.627"></status>
+<status status="PASS" starttime="20190404 13:34:17.019" endtime="20190404 13:34:17.019"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>${br_url}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:53.628" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
-<status status="PASS" starttime="20190403 18:49:53.627" endtime="20190403 18:49:59.480"></status>
+<msg timestamp="20190404 13:34:17.019" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
+<status status="PASS" starttime="20190404 13:34:17.019" endtime="20190404 13:34:22.471"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190403 18:49:59.481" endtime="20190403 18:49:59.927"></status>
+<status status="PASS" starttime="20190404 13:34:22.472" endtime="20190404 13:34:22.750"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:53.626" endtime="20190403 18:49:59.927"></status>
+<status status="PASS" starttime="20190404 13:34:17.018" endtime="20190404 13:34:22.750"></status>
 </kw>
-<kw name="Login" library="BleacherSmoke">
+<kw name="Existing_User_Login" library="BleacherSmoke">
 <tags>
 <tag>Login</tag>
 </tags>
-<doc>Goes through the Login workflow.</doc>
+<doc>Goes through the Login workflow with an existing user.</doc>
 <arguments>
-<arg>rharley77@gmail.com</arg>
-<arg>test1234</arg>
+<arg>Yl4BGztY@gmail.com</arg>
+<arg>tknbip0R</arg>
 </arguments>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -479,8 +592,8 @@
 <assign>
 <var>${login_email}</var>
 </assign>
-<msg timestamp="20190403 18:49:59.929" level="INFO">${login_email} = rharley77@gmail.com</msg>
-<status status="PASS" starttime="20190403 18:49:59.928" endtime="20190403 18:49:59.929"></status>
+<msg timestamp="20190404 13:34:22.751" level="INFO">${login_email} = Yl4BGztY@gmail.com</msg>
+<status status="PASS" starttime="20190404 13:34:22.751" endtime="20190404 13:34:22.751"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -490,16 +603,16 @@
 <assign>
 <var>${login_password}</var>
 </assign>
-<msg timestamp="20190403 18:49:59.929" level="INFO">${login_password} = test1234</msg>
-<status status="PASS" starttime="20190403 18:49:59.929" endtime="20190403 18:49:59.929"></status>
+<msg timestamp="20190404 13:34:22.752" level="INFO">${login_password} = tknbip0R</msg>
+<status status="PASS" starttime="20190404 13:34:22.752" endtime="20190404 13:34:22.752"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${login_button_header}</arg>
 </arguments>
-<msg timestamp="20190403 18:49:59.929" level="INFO">Clicking element '//a[contains(@class,'login')]'.</msg>
-<status status="PASS" starttime="20190403 18:49:59.929" endtime="20190403 18:50:01.502"></status>
+<msg timestamp="20190404 13:34:22.752" level="INFO">Clicking element '//a[contains(@class,'login')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:22.752" endtime="20190404 13:34:23.832"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -507,15 +620,15 @@
 <arg>${signin_with_email_btn}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:01.502" endtime="20190403 18:50:01.734"></status>
+<status status="PASS" starttime="20190404 13:34:23.832" endtime="20190404 13:34:23.853"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${signin_with_email_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:01.734" level="INFO">Clicking element '//button[contains(.,'Sign in with Email')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:01.734" endtime="20190403 18:50:02.016"></status>
+<msg timestamp="20190404 13:34:23.854" level="INFO">Clicking element '//button[contains(.,'Sign in with Email')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:23.854" endtime="20190404 13:34:23.933"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -523,25 +636,25 @@
 <arg>${email_field}</arg>
 <arg>${login_email}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:02.017" level="INFO">Typing text 'rharley77@gmail.com' into text field '//input[contains(@name,'email')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:02.016" endtime="20190403 18:50:02.469"></status>
+<msg timestamp="20190404 13:34:23.933" level="INFO">Typing text 'Yl4BGztY@gmail.com' into text field '//input[contains(@name,'email')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:23.933" endtime="20190404 13:34:24.068"></status>
 </kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
 <arguments>
 <arg>${password_field}</arg>
 <arg>${login_password}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:02.470" level="INFO">Typing text 'test1234' into text field '//input[contains(@name,'password')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:02.469" endtime="20190403 18:50:02.858"></status>
+<msg timestamp="20190404 13:34:24.068" level="INFO">Typing password into text field '//input[contains(@name,'password')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:24.068" endtime="20190404 13:34:24.143"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>${signin_btn}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:02.858" level="INFO">Clicking button '//button[contains(.,'Sign In')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:02.858" endtime="20190403 18:50:03.444"></status>
+<msg timestamp="20190404 13:34:24.143" level="INFO">Clicking button '//button[contains(.,'Sign In')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:24.143" endtime="20190404 13:34:24.203"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -549,18 +662,18 @@
 <arg>${existing_user_loggedin}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:03.444" endtime="20190403 18:50:06.781"></status>
+<status status="PASS" starttime="20190404 13:34:24.203" endtime="20190404 13:34:27.574"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:59.928" endtime="20190403 18:50:06.781"></status>
+<status status="PASS" starttime="20190404 13:34:22.750" endtime="20190404 13:34:27.574"></status>
 </kw>
 <kw name="End Web Test" library="Common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190403 18:50:06.782" endtime="20190403 18:50:06.978"></status>
+<status status="PASS" starttime="20190404 13:34:27.575" endtime="20190404 13:34:27.741"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:06.782" endtime="20190403 18:50:06.978"></status>
+<status status="PASS" starttime="20190404 13:34:27.574" endtime="20190404 13:34:27.741"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:49:51.558" endtime="20190403 18:50:06.978" critical="yes"></status>
+<status status="PASS" starttime="20190404 13:34:15.134" endtime="20190404 13:34:27.741" critical="yes"></status>
 </test>
 <test id="s1-t4" name="Nav Menu Item Test">
 <kw name="Begin Web Test" library="Common" type="setup">
@@ -570,19 +683,19 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:06.980" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20190403 18:50:06.980" endtime="20190403 18:50:09.019"></status>
+<msg timestamp="20190404 13:34:27.743" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20190404 13:34:27.742" endtime="20190404 13:34:29.606"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:06.980" endtime="20190403 18:50:09.019"></status>
+<status status="PASS" starttime="20190404 13:34:27.742" endtime="20190404 13:34:29.606"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Sub menu item count</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:09.020" endtime="20190403 18:50:09.020"></status>
+<status status="PASS" starttime="20190404 13:34:29.607" endtime="20190404 13:34:29.607"></status>
 </kw>
-<kw name="Navigate To Page" library="BleacherSmoke">
+<kw name="Navigate_To_Page" library="BleacherSmoke">
 <tags>
 <tag>Go to BleacherReport url</tag>
 </tags>
@@ -591,23 +704,23 @@
 <arguments>
 <arg>Navigating to BleacherReport.com</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:09.021" endtime="20190403 18:50:09.021"></status>
+<status status="PASS" starttime="20190404 13:34:29.608" endtime="20190404 13:34:29.608"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>${br_url}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:09.022" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
-<status status="PASS" starttime="20190403 18:50:09.021" endtime="20190403 18:50:14.963"></status>
+<msg timestamp="20190404 13:34:29.609" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
+<status status="PASS" starttime="20190404 13:34:29.608" endtime="20190404 13:34:34.624"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190403 18:50:14.963" endtime="20190403 18:50:15.417"></status>
+<status status="PASS" starttime="20190404 13:34:34.624" endtime="20190404 13:34:34.908"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:09.021" endtime="20190403 18:50:15.417"></status>
+<status status="PASS" starttime="20190404 13:34:29.608" endtime="20190404 13:34:34.908"></status>
 </kw>
-<kw name="Menu Item Count" library="BleacherSmoke">
+<kw name="Menu_Item_Count" library="BleacherSmoke">
 <tags>
 <tag>Sub Menu Count</tag>
 </tags>
@@ -627,8 +740,8 @@
 <assign>
 <var>@{ITEMS}</var>
 </assign>
-<msg timestamp="20190403 18:50:15.419" level="INFO">@{ITEMS} = [ //a[contains(text(),'NFL')] | //a[contains(text(),'CFB')] | //a[contains(text(),'NBA')] | //a[contains(text(),'World Football')] | //a[contains(text(),'MLB')] | //a[contains(text(),'NHL')] | //a[con...</msg>
-<status status="PASS" starttime="20190403 18:50:15.418" endtime="20190403 18:50:15.420"></status>
+<msg timestamp="20190404 13:34:34.909" level="INFO">@{ITEMS} = [ //a[contains(text(),'NFL')] | //a[contains(text(),'CFB')] | //a[contains(text(),'NBA')] | //a[contains(text(),'World Football')] | //a[contains(text(),'MLB')] | //a[contains(text(),'NHL')] | //a[con...</msg>
+<status status="PASS" starttime="20190404 13:34:34.909" endtime="20190404 13:34:34.909"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
@@ -643,8 +756,8 @@
 <assign>
 <var>@{ITEMS2}</var>
 </assign>
-<msg timestamp="20190403 18:50:15.421" level="INFO">@{ITEMS2} = [ //a[contains(text(),'MMA')] | //a[contains(text(),'WWE')] | //a[contains(text(),'Golf')] | //a[contains(text(),'Tennis')] | //a[contains(text(),'Boxing')] | //a[contains(.,'Shows')] ]</msg>
-<status status="PASS" starttime="20190403 18:50:15.420" endtime="20190403 18:50:15.421"></status>
+<msg timestamp="20190404 13:34:34.910" level="INFO">@{ITEMS2} = [ //a[contains(text(),'MMA')] | //a[contains(text(),'WWE')] | //a[contains(text(),'Golf')] | //a[contains(text(),'Tennis')] | //a[contains(text(),'Boxing')] | //a[contains(.,'Shows')] ]</msg>
+<status status="PASS" starttime="20190404 13:34:34.909" endtime="20190404 13:34:34.910"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
@@ -652,31 +765,31 @@
 <arg>${32}</arg>
 <arg>${81}</arg>
 <arg>${30}</arg>
-<arg>${246}</arg>
+<arg>${247}</arg>
 <arg>${30}</arg>
 <arg>${31}</arg>
 <arg>${89}</arg>
 <arg>${7}</arg>
 <arg>${2}</arg>
-<arg>${2}</arg>
+<arg>${1}</arg>
+<arg>${1}</arg>
 <arg>${0}</arg>
-<arg>${2}</arg>
 <arg>${2}</arg>
 <arg>${4}</arg>
 </arguments>
 <assign>
 <var>${Expected_Menu_Items_Num}</var>
 </assign>
-<msg timestamp="20190403 18:50:15.422" level="INFO">${Expected_Menu_Items_Num} = [32, 81, 30, 246, 30, 31, 89, 7, 2, 2, 0, 2, 2, 4]</msg>
-<status status="PASS" starttime="20190403 18:50:15.421" endtime="20190403 18:50:15.422"></status>
+<msg timestamp="20190404 13:34:34.928" level="INFO">${Expected_Menu_Items_Num} = [32, 81, 30, 247, 30, 31, 89, 7, 2, 1, 1, 0, 2, 4]</msg>
+<status status="PASS" starttime="20190404 13:34:34.926" endtime="20190404 13:34:34.928"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
 <assign>
 <var>${Actual_Menu_Items_Num}</var>
 </assign>
-<msg timestamp="20190403 18:50:15.423" level="INFO">${Actual_Menu_Items_Num} = []</msg>
-<status status="PASS" starttime="20190403 18:50:15.422" endtime="20190403 18:50:15.423"></status>
+<msg timestamp="20190404 13:34:34.928" level="INFO">${Actual_Menu_Items_Num} = []</msg>
+<status status="PASS" starttime="20190404 13:34:34.928" endtime="20190404 13:34:34.928"></status>
 </kw>
 <kw name="${ELEMENT} IN [ @{ITEMS} ]" type="for">
 <kw name="${ELEMENT} = //a[contains(text(),'NFL')]" type="foritem">
@@ -686,23 +799,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:15.423" endtime="20190403 18:50:15.634"></status>
+<status status="PASS" starttime="20190404 13:34:34.929" endtime="20190404 13:34:35.038"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:15.635" level="INFO">//a[contains(text(),'NFL')]</msg>
-<status status="PASS" starttime="20190403 18:50:15.634" endtime="20190403 18:50:15.635"></status>
+<msg timestamp="20190404 13:34:35.038" level="INFO">//a[contains(text(),'NFL')]</msg>
+<status status="PASS" starttime="20190404 13:34:35.038" endtime="20190404 13:34:35.038"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:15.636" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'NFL')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:15.635" endtime="20190403 18:50:15.900"></status>
+<msg timestamp="20190404 13:34:35.039" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'NFL')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:35.039" endtime="20190404 13:34:35.175"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -712,15 +825,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:16.040" level="INFO">${count} = 32</msg>
-<status status="PASS" starttime="20190403 18:50:15.900" endtime="20190403 18:50:16.040"></status>
+<msg timestamp="20190404 13:34:35.191" level="INFO">${count} = 32</msg>
+<status status="PASS" starttime="20190404 13:34:35.175" endtime="20190404 13:34:35.191"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:16.040" endtime="20190403 18:50:16.040"></status>
+<status status="PASS" starttime="20190404 13:34:35.191" endtime="20190404 13:34:35.191"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -728,9 +841,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:16.040" endtime="20190403 18:50:16.041"></status>
+<status status="PASS" starttime="20190404 13:34:35.192" endtime="20190404 13:34:35.192"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:15.423" endtime="20190403 18:50:16.041"></status>
+<status status="PASS" starttime="20190404 13:34:34.929" endtime="20190404 13:34:35.192"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'CFB')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -739,23 +852,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:16.041" endtime="20190403 18:50:16.248"></status>
+<status status="PASS" starttime="20190404 13:34:35.192" endtime="20190404 13:34:35.294"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:16.248" level="INFO">//a[contains(text(),'CFB')]</msg>
-<status status="PASS" starttime="20190403 18:50:16.248" endtime="20190403 18:50:16.248"></status>
+<msg timestamp="20190404 13:34:35.295" level="INFO">//a[contains(text(),'CFB')]</msg>
+<status status="PASS" starttime="20190404 13:34:35.294" endtime="20190404 13:34:35.295"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:16.249" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'CFB')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:16.248" endtime="20190403 18:50:16.866"></status>
+<msg timestamp="20190404 13:34:35.295" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'CFB')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:35.295" endtime="20190404 13:34:35.380"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -765,15 +878,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:17.067" level="INFO">${count} = 81</msg>
-<status status="PASS" starttime="20190403 18:50:16.867" endtime="20190403 18:50:17.067"></status>
+<msg timestamp="20190404 13:34:35.400" level="INFO">${count} = 81</msg>
+<status status="PASS" starttime="20190404 13:34:35.380" endtime="20190404 13:34:35.401"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:17.067" endtime="20190403 18:50:17.067"></status>
+<status status="PASS" starttime="20190404 13:34:35.401" endtime="20190404 13:34:35.401"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -781,9 +894,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:17.068" endtime="20190403 18:50:17.068"></status>
+<status status="PASS" starttime="20190404 13:34:35.401" endtime="20190404 13:34:35.402"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:16.041" endtime="20190403 18:50:17.068"></status>
+<status status="PASS" starttime="20190404 13:34:35.192" endtime="20190404 13:34:35.402"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'NBA')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -792,23 +905,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:17.069" endtime="20190403 18:50:17.275"></status>
+<status status="PASS" starttime="20190404 13:34:35.402" endtime="20190404 13:34:35.505"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:17.275" level="INFO">//a[contains(text(),'NBA')]</msg>
-<status status="PASS" starttime="20190403 18:50:17.275" endtime="20190403 18:50:17.275"></status>
+<msg timestamp="20190404 13:34:35.505" level="INFO">//a[contains(text(),'NBA')]</msg>
+<status status="PASS" starttime="20190404 13:34:35.505" endtime="20190404 13:34:35.505"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:17.276" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'NBA')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:17.275" endtime="20190403 18:50:17.543"></status>
+<msg timestamp="20190404 13:34:35.506" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'NBA')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:35.506" endtime="20190404 13:34:35.548"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -818,15 +931,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:17.656" level="INFO">${count} = 30</msg>
-<status status="PASS" starttime="20190403 18:50:17.543" endtime="20190403 18:50:17.657"></status>
+<msg timestamp="20190404 13:34:35.558" level="INFO">${count} = 30</msg>
+<status status="PASS" starttime="20190404 13:34:35.549" endtime="20190404 13:34:35.558"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:17.657" endtime="20190403 18:50:17.657"></status>
+<status status="PASS" starttime="20190404 13:34:35.559" endtime="20190404 13:34:35.559"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -834,9 +947,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:17.657" endtime="20190403 18:50:17.658"></status>
+<status status="PASS" starttime="20190404 13:34:35.559" endtime="20190404 13:34:35.559"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:17.068" endtime="20190403 18:50:17.658"></status>
+<status status="PASS" starttime="20190404 13:34:35.402" endtime="20190404 13:34:35.559"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'World Football')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -845,23 +958,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:17.658" endtime="20190403 18:50:17.863"></status>
+<status status="PASS" starttime="20190404 13:34:35.559" endtime="20190404 13:34:35.662"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:17.864" level="INFO">//a[contains(text(),'World Football')]</msg>
-<status status="PASS" starttime="20190403 18:50:17.863" endtime="20190403 18:50:17.864"></status>
+<msg timestamp="20190404 13:34:35.662" level="INFO">//a[contains(text(),'World Football')]</msg>
+<status status="PASS" starttime="20190404 13:34:35.662" endtime="20190404 13:34:35.662"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:17.864" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'World Football')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:17.864" endtime="20190403 18:50:18.157"></status>
+<msg timestamp="20190404 13:34:35.662" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'World Football')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:35.662" endtime="20190404 13:34:36.000"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -871,15 +984,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:18.285" level="INFO">${count} = 247</msg>
-<status status="PASS" starttime="20190403 18:50:18.158" endtime="20190403 18:50:18.285"></status>
+<msg timestamp="20190404 13:34:36.052" level="INFO">${count} = 247</msg>
+<status status="PASS" starttime="20190404 13:34:36.000" endtime="20190404 13:34:36.052"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:18.285" endtime="20190403 18:50:18.285"></status>
+<status status="PASS" starttime="20190404 13:34:36.052" endtime="20190404 13:34:36.052"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -887,9 +1000,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:18.286" endtime="20190403 18:50:18.286"></status>
+<status status="PASS" starttime="20190404 13:34:36.052" endtime="20190404 13:34:36.052"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:17.658" endtime="20190403 18:50:18.286"></status>
+<status status="PASS" starttime="20190404 13:34:35.559" endtime="20190404 13:34:36.052"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'MLB')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -898,23 +1011,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:18.286" endtime="20190403 18:50:18.492"></status>
+<status status="PASS" starttime="20190404 13:34:36.053" endtime="20190404 13:34:36.155"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:18.493" level="INFO">//a[contains(text(),'MLB')]</msg>
-<status status="PASS" starttime="20190403 18:50:18.493" endtime="20190403 18:50:18.493"></status>
+<msg timestamp="20190404 13:34:36.156" level="INFO">//a[contains(text(),'MLB')]</msg>
+<status status="PASS" starttime="20190404 13:34:36.156" endtime="20190404 13:34:36.156"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:18.494" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'MLB')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:18.493" endtime="20190403 18:50:18.752"></status>
+<msg timestamp="20190404 13:34:36.157" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'MLB')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:36.156" endtime="20190404 13:34:36.205"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -924,15 +1037,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:18.867" level="INFO">${count} = 30</msg>
-<status status="PASS" starttime="20190403 18:50:18.752" endtime="20190403 18:50:18.867"></status>
+<msg timestamp="20190404 13:34:36.217" level="INFO">${count} = 30</msg>
+<status status="PASS" starttime="20190404 13:34:36.206" endtime="20190404 13:34:36.217"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:18.867" endtime="20190403 18:50:18.867"></status>
+<status status="PASS" starttime="20190404 13:34:36.217" endtime="20190404 13:34:36.217"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -940,9 +1053,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:18.868" endtime="20190403 18:50:18.868"></status>
+<status status="PASS" starttime="20190404 13:34:36.217" endtime="20190404 13:34:36.217"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:18.286" endtime="20190403 18:50:18.868"></status>
+<status status="PASS" starttime="20190404 13:34:36.052" endtime="20190404 13:34:36.217"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'NHL')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -951,23 +1064,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:18.868" endtime="20190403 18:50:19.074"></status>
+<status status="PASS" starttime="20190404 13:34:36.218" endtime="20190404 13:34:36.321"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:19.075" level="INFO">//a[contains(text(),'NHL')]</msg>
-<status status="PASS" starttime="20190403 18:50:19.075" endtime="20190403 18:50:19.075"></status>
+<msg timestamp="20190404 13:34:36.321" level="INFO">//a[contains(text(),'NHL')]</msg>
+<status status="PASS" starttime="20190404 13:34:36.321" endtime="20190404 13:34:36.321"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:19.075" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'NHL')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:19.075" endtime="20190403 18:50:19.325"></status>
+<msg timestamp="20190404 13:34:36.322" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'NHL')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:36.321" endtime="20190404 13:34:36.361"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -977,15 +1090,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:19.439" level="INFO">${count} = 31</msg>
-<status status="PASS" starttime="20190403 18:50:19.325" endtime="20190403 18:50:19.439"></status>
+<msg timestamp="20190404 13:34:36.369" level="INFO">${count} = 31</msg>
+<status status="PASS" starttime="20190404 13:34:36.361" endtime="20190404 13:34:36.369"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:19.439" endtime="20190403 18:50:19.439"></status>
+<status status="PASS" starttime="20190404 13:34:36.370" endtime="20190404 13:34:36.370"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -993,9 +1106,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:19.439" endtime="20190403 18:50:19.440"></status>
+<status status="PASS" starttime="20190404 13:34:36.370" endtime="20190404 13:34:36.370"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:18.868" endtime="20190403 18:50:19.440"></status>
+<status status="PASS" starttime="20190404 13:34:36.217" endtime="20190404 13:34:36.370"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'CBB')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1004,23 +1117,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:19.440" endtime="20190403 18:50:19.648"></status>
+<status status="PASS" starttime="20190404 13:34:36.370" endtime="20190404 13:34:36.474"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:19.648" level="INFO">//a[contains(text(),'CBB')]</msg>
-<status status="PASS" starttime="20190403 18:50:19.648" endtime="20190403 18:50:19.648"></status>
+<msg timestamp="20190404 13:34:36.474" level="INFO">//a[contains(text(),'CBB')]</msg>
+<status status="PASS" starttime="20190404 13:34:36.474" endtime="20190404 13:34:36.474"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:19.648" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'CBB')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:19.648" endtime="20190403 18:50:19.910"></status>
+<msg timestamp="20190404 13:34:36.475" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'CBB')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:36.475" endtime="20190404 13:34:36.522"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1030,15 +1143,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:20.025" level="INFO">${count} = 89</msg>
-<status status="PASS" starttime="20190403 18:50:19.910" endtime="20190403 18:50:20.025"></status>
+<msg timestamp="20190404 13:34:36.533" level="INFO">${count} = 89</msg>
+<status status="PASS" starttime="20190404 13:34:36.522" endtime="20190404 13:34:36.533"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:20.025" endtime="20190403 18:50:20.025"></status>
+<status status="PASS" starttime="20190404 13:34:36.533" endtime="20190404 13:34:36.533"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1046,9 +1159,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:20.025" endtime="20190403 18:50:20.025"></status>
+<status status="PASS" starttime="20190404 13:34:36.533" endtime="20190404 13:34:36.533"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:19.440" endtime="20190403 18:50:20.025"></status>
+<status status="PASS" starttime="20190404 13:34:36.370" endtime="20190404 13:34:36.533"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(.,'More')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1057,23 +1170,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:20.026" endtime="20190403 18:50:20.233"></status>
+<status status="PASS" starttime="20190404 13:34:36.534" endtime="20190404 13:34:36.636"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:20.234" level="INFO">//a[contains(.,'More')]</msg>
-<status status="PASS" starttime="20190403 18:50:20.233" endtime="20190403 18:50:20.234"></status>
+<msg timestamp="20190404 13:34:36.637" level="INFO">//a[contains(.,'More')]</msg>
+<status status="PASS" starttime="20190404 13:34:36.637" endtime="20190404 13:34:36.637"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:20.234" level="INFO">Simulating Mouse Over on element '//a[contains(.,'More')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:20.234" endtime="20190403 18:50:20.486"></status>
+<msg timestamp="20190404 13:34:36.638" level="INFO">Simulating Mouse Over on element '//a[contains(.,'More')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:36.637" endtime="20190404 13:34:36.677"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1083,15 +1196,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:20.600" level="INFO">${count} = 7</msg>
-<status status="PASS" starttime="20190403 18:50:20.486" endtime="20190403 18:50:20.600"></status>
+<msg timestamp="20190404 13:34:36.686" level="INFO">${count} = 7</msg>
+<status status="PASS" starttime="20190404 13:34:36.677" endtime="20190404 13:34:36.686"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:20.600" endtime="20190403 18:50:20.600"></status>
+<status status="PASS" starttime="20190404 13:34:36.686" endtime="20190404 13:34:36.686"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1099,11 +1212,11 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:20.600" endtime="20190403 18:50:20.601"></status>
+<status status="PASS" starttime="20190404 13:34:36.687" endtime="20190404 13:34:36.687"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:20.026" endtime="20190403 18:50:20.601"></status>
+<status status="PASS" starttime="20190404 13:34:36.534" endtime="20190404 13:34:36.687"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:15.423" endtime="20190403 18:50:20.601"></status>
+<status status="PASS" starttime="20190404 13:34:34.929" endtime="20190404 13:34:36.687"></status>
 </kw>
 <kw name="${ELEMENT} IN [ @{ITEMS2} ]" type="for">
 <kw name="${ELEMENT} = //a[contains(text(),'MMA')]" type="foritem">
@@ -1113,23 +1226,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:20.601" endtime="20190403 18:50:20.809"></status>
+<status status="PASS" starttime="20190404 13:34:36.687" endtime="20190404 13:34:36.790"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:20.809" level="INFO">//a[contains(text(),'MMA')]</msg>
-<status status="PASS" starttime="20190403 18:50:20.809" endtime="20190403 18:50:20.809"></status>
+<msg timestamp="20190404 13:34:36.791" level="INFO">//a[contains(text(),'MMA')]</msg>
+<status status="PASS" starttime="20190404 13:34:36.790" endtime="20190404 13:34:36.791"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:20.809" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'MMA')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:20.809" endtime="20190403 18:50:21.060"></status>
+<msg timestamp="20190404 13:34:36.791" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'MMA')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:36.791" endtime="20190404 13:34:36.836"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1139,15 +1252,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:21.176" level="INFO">${count} = 2</msg>
-<status status="PASS" starttime="20190403 18:50:21.060" endtime="20190403 18:50:21.176"></status>
+<msg timestamp="20190404 13:34:36.850" level="INFO">${count} = 2</msg>
+<status status="PASS" starttime="20190404 13:34:36.836" endtime="20190404 13:34:36.850"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:21.176" endtime="20190403 18:50:21.177"></status>
+<status status="PASS" starttime="20190404 13:34:36.850" endtime="20190404 13:34:36.851"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1155,9 +1268,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:21.177" endtime="20190403 18:50:21.177"></status>
+<status status="PASS" starttime="20190404 13:34:36.851" endtime="20190404 13:34:36.851"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:20.601" endtime="20190403 18:50:21.177"></status>
+<status status="PASS" starttime="20190404 13:34:36.687" endtime="20190404 13:34:36.851"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'WWE')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1166,23 +1279,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:21.177" endtime="20190403 18:50:21.383"></status>
+<status status="PASS" starttime="20190404 13:34:36.851" endtime="20190404 13:34:36.955"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:21.384" level="INFO">//a[contains(text(),'WWE')]</msg>
-<status status="PASS" starttime="20190403 18:50:21.383" endtime="20190403 18:50:21.384"></status>
+<msg timestamp="20190404 13:34:36.955" level="INFO">//a[contains(text(),'WWE')]</msg>
+<status status="PASS" starttime="20190404 13:34:36.955" endtime="20190404 13:34:36.955"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:21.384" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'WWE')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:21.384" endtime="20190403 18:50:21.627"></status>
+<msg timestamp="20190404 13:34:36.956" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'WWE')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:36.956" endtime="20190404 13:34:36.991"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1192,15 +1305,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:21.737" level="INFO">${count} = 1</msg>
-<status status="PASS" starttime="20190403 18:50:21.628" endtime="20190403 18:50:21.738"></status>
+<msg timestamp="20190404 13:34:36.999" level="INFO">${count} = 1</msg>
+<status status="PASS" starttime="20190404 13:34:36.991" endtime="20190404 13:34:36.999"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:21.738" endtime="20190403 18:50:21.738"></status>
+<status status="PASS" starttime="20190404 13:34:36.999" endtime="20190404 13:34:36.999"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1208,9 +1321,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:21.738" endtime="20190403 18:50:21.738"></status>
+<status status="PASS" starttime="20190404 13:34:36.999" endtime="20190404 13:34:36.999"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:21.177" endtime="20190403 18:50:21.738"></status>
+<status status="PASS" starttime="20190404 13:34:36.851" endtime="20190404 13:34:36.999"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'Golf')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1219,23 +1332,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:21.739" endtime="20190403 18:50:21.946"></status>
+<status status="PASS" starttime="20190404 13:34:36.999" endtime="20190404 13:34:37.103"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:21.947" level="INFO">//a[contains(text(),'Golf')]</msg>
-<status status="PASS" starttime="20190403 18:50:21.947" endtime="20190403 18:50:21.947"></status>
+<msg timestamp="20190404 13:34:37.104" level="INFO">//a[contains(text(),'Golf')]</msg>
+<status status="PASS" starttime="20190404 13:34:37.103" endtime="20190404 13:34:37.104"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:21.948" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'Golf')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:21.947" endtime="20190403 18:50:22.196"></status>
+<msg timestamp="20190404 13:34:37.104" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'Golf')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:37.104" endtime="20190404 13:34:37.144"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1245,15 +1358,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:22.307" level="INFO">${count} = 1</msg>
-<status status="PASS" starttime="20190403 18:50:22.196" endtime="20190403 18:50:22.307"></status>
+<msg timestamp="20190404 13:34:37.151" level="INFO">${count} = 1</msg>
+<status status="PASS" starttime="20190404 13:34:37.144" endtime="20190404 13:34:37.151"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:22.308" endtime="20190403 18:50:22.308"></status>
+<status status="PASS" starttime="20190404 13:34:37.151" endtime="20190404 13:34:37.152"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1261,9 +1374,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:22.308" endtime="20190403 18:50:22.308"></status>
+<status status="PASS" starttime="20190404 13:34:37.152" endtime="20190404 13:34:37.152"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:21.739" endtime="20190403 18:50:22.308"></status>
+<status status="PASS" starttime="20190404 13:34:36.999" endtime="20190404 13:34:37.152"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'Tennis')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1272,23 +1385,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:22.308" endtime="20190403 18:50:22.515"></status>
+<status status="PASS" starttime="20190404 13:34:37.152" endtime="20190404 13:34:37.255"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:22.516" level="INFO">//a[contains(text(),'Tennis')]</msg>
-<status status="PASS" starttime="20190403 18:50:22.516" endtime="20190403 18:50:22.516"></status>
+<msg timestamp="20190404 13:34:37.256" level="INFO">//a[contains(text(),'Tennis')]</msg>
+<status status="PASS" starttime="20190404 13:34:37.255" endtime="20190404 13:34:37.256"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:22.516" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'Tennis')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:22.516" endtime="20190403 18:50:22.759"></status>
+<msg timestamp="20190404 13:34:37.257" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'Tennis')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:37.256" endtime="20190404 13:34:37.291"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1298,15 +1411,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:22.869" level="INFO">${count} = 0</msg>
-<status status="PASS" starttime="20190403 18:50:22.759" endtime="20190403 18:50:22.869"></status>
+<msg timestamp="20190404 13:34:37.299" level="INFO">${count} = 0</msg>
+<status status="PASS" starttime="20190404 13:34:37.291" endtime="20190404 13:34:37.299"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:22.869" endtime="20190403 18:50:22.870"></status>
+<status status="PASS" starttime="20190404 13:34:37.299" endtime="20190404 13:34:37.299"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1314,9 +1427,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:22.870" endtime="20190403 18:50:22.870"></status>
+<status status="PASS" starttime="20190404 13:34:37.299" endtime="20190404 13:34:37.299"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:22.308" endtime="20190403 18:50:22.870"></status>
+<status status="PASS" starttime="20190404 13:34:37.152" endtime="20190404 13:34:37.299"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'Boxing')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1325,23 +1438,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:22.870" endtime="20190403 18:50:23.078"></status>
+<status status="PASS" starttime="20190404 13:34:37.299" endtime="20190404 13:34:37.403"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.078" level="INFO">//a[contains(text(),'Boxing')]</msg>
-<status status="PASS" starttime="20190403 18:50:23.078" endtime="20190403 18:50:23.078"></status>
+<msg timestamp="20190404 13:34:37.404" level="INFO">//a[contains(text(),'Boxing')]</msg>
+<status status="PASS" starttime="20190404 13:34:37.403" endtime="20190404 13:34:37.404"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.079" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'Boxing')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:23.079" endtime="20190403 18:50:23.325"></status>
+<msg timestamp="20190404 13:34:37.404" level="INFO">Simulating Mouse Over on element '//a[contains(text(),'Boxing')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:37.404" endtime="20190404 13:34:37.444"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1351,15 +1464,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:23.438" level="INFO">${count} = 2</msg>
-<status status="PASS" starttime="20190403 18:50:23.325" endtime="20190403 18:50:23.438"></status>
+<msg timestamp="20190404 13:34:37.451" level="INFO">${count} = 2</msg>
+<status status="PASS" starttime="20190404 13:34:37.444" endtime="20190404 13:34:37.451"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:23.438" endtime="20190403 18:50:23.438"></status>
+<status status="PASS" starttime="20190404 13:34:37.451" endtime="20190404 13:34:37.451"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1367,9 +1480,9 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:23.438" endtime="20190403 18:50:23.438"></status>
+<status status="PASS" starttime="20190404 13:34:37.451" endtime="20190404 13:34:37.451"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:22.870" endtime="20190403 18:50:23.439"></status>
+<status status="PASS" starttime="20190404 13:34:37.299" endtime="20190404 13:34:37.451"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(.,'Shows')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1378,23 +1491,23 @@
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:23.439" endtime="20190403 18:50:23.645"></status>
+<status status="PASS" starttime="20190404 13:34:37.452" endtime="20190404 13:34:37.554"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.645" level="INFO">//a[contains(.,'Shows')]</msg>
-<status status="PASS" starttime="20190403 18:50:23.645" endtime="20190403 18:50:23.645"></status>
+<msg timestamp="20190404 13:34:37.554" level="INFO">//a[contains(.,'Shows')]</msg>
+<status status="PASS" starttime="20190404 13:34:37.554" endtime="20190404 13:34:37.555"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.646" level="INFO">Simulating Mouse Over on element '//a[contains(.,'Shows')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:23.645" endtime="20190403 18:50:23.885"></status>
+<msg timestamp="20190404 13:34:37.555" level="INFO">Simulating Mouse Over on element '//a[contains(.,'Shows')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:37.555" endtime="20190404 13:34:37.590"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -1404,15 +1517,15 @@
 <assign>
 <var>${count}</var>
 </assign>
-<msg timestamp="20190403 18:50:23.995" level="INFO">${count} = 4</msg>
-<status status="PASS" starttime="20190403 18:50:23.885" endtime="20190403 18:50:23.995"></status>
+<msg timestamp="20190404 13:34:37.598" level="INFO">${count} = 4</msg>
+<status status="PASS" starttime="20190404 13:34:37.590" endtime="20190404 13:34:37.598"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:23.995" endtime="20190403 18:50:23.996"></status>
+<status status="PASS" starttime="20190404 13:34:37.598" endtime="20190404 13:34:37.598"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1420,18 +1533,18 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${count}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:23.996" endtime="20190403 18:50:23.996"></status>
+<status status="PASS" starttime="20190404 13:34:37.598" endtime="20190404 13:34:37.599"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:23.439" endtime="20190403 18:50:23.996"></status>
+<status status="PASS" starttime="20190404 13:34:37.451" endtime="20190404 13:34:37.599"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:20.601" endtime="20190403 18:50:23.996"></status>
+<status status="PASS" starttime="20190404 13:34:36.687" endtime="20190404 13:34:37.599"></status>
 </kw>
 <kw name="Log List" library="Collections">
 <doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
 <arguments>
 <arg>${Actual_Menu_Items_Num}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.996" level="INFO">List length is 14 and it contains following items:
+<msg timestamp="20190404 13:34:37.599" level="INFO">List length is 14 and it contains following items:
 0: 32
 1: 81
 2: 30
@@ -1446,29 +1559,29 @@
 11: 0
 12: 2
 13: 4</msg>
-<status status="PASS" starttime="20190403 18:50:23.996" endtime="20190403 18:50:23.996"></status>
+<status status="PASS" starttime="20190404 13:34:37.599" endtime="20190404 13:34:37.599"></status>
 </kw>
 <kw name="Log List" library="Collections">
 <doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
 <arguments>
 <arg>${Expected_Menu_Items_Num}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.997" level="INFO">List length is 14 and it contains following items:
+<msg timestamp="20190404 13:34:37.599" level="INFO">List length is 14 and it contains following items:
 0: 32
 1: 81
 2: 30
-3: 246
+3: 247
 4: 30
 5: 31
 6: 89
 7: 7
 8: 2
-9: 2
-10: 0
-11: 2
+9: 1
+10: 1
+11: 0
 12: 2
 13: 4</msg>
-<status status="PASS" starttime="20190403 18:50:23.996" endtime="20190403 18:50:23.997"></status>
+<status status="PASS" starttime="20190404 13:34:37.599" endtime="20190404 13:34:37.599"></status>
 </kw>
 <kw name="Lists Should Be Equal" library="Collections">
 <doc>Fails if given lists are unequal.</doc>
@@ -1476,27 +1589,18 @@
 <arg>${Actual_Menu_Items_Num}</arg>
 <arg>${Expected_Menu_Items_Num}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:23.997" level="FAIL">Lists are different:
-Index 3: 247 != 246
-Index 9: 1 != 2
-Index 10: 1 != 0
-Index 11: 0 != 2</msg>
-<status status="FAIL" starttime="20190403 18:50:23.997" endtime="20190403 18:50:23.997"></status>
+<status status="PASS" starttime="20190404 13:34:37.599" endtime="20190404 13:34:37.600"></status>
 </kw>
-<status status="FAIL" starttime="20190403 18:50:15.418" endtime="20190403 18:50:23.997"></status>
+<status status="PASS" starttime="20190404 13:34:34.908" endtime="20190404 13:34:37.600"></status>
 </kw>
 <kw name="End Web Test" library="Common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190403 18:50:23.998" endtime="20190403 18:50:24.181"></status>
+<status status="PASS" starttime="20190404 13:34:37.600" endtime="20190404 13:34:37.765"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:23.998" endtime="20190403 18:50:24.181"></status>
+<status status="PASS" starttime="20190404 13:34:37.600" endtime="20190404 13:34:37.765"></status>
 </kw>
-<status status="FAIL" starttime="20190403 18:50:06.979" endtime="20190403 18:50:24.181" critical="yes">Lists are different:
-Index 3: 247 != 246
-Index 9: 1 != 2
-Index 10: 1 != 0
-Index 11: 0 != 2</status>
+<status status="PASS" starttime="20190404 13:34:27.741" endtime="20190404 13:34:37.766" critical="yes"></status>
 </test>
 <test id="s1-t5" name="League Category Landing Page Test">
 <kw name="Begin Web Test" library="Common" type="setup">
@@ -1506,19 +1610,19 @@ Index 11: 0 != 2</status>
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:24.183" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20190403 18:50:24.183" endtime="20190403 18:50:26.217"></status>
+<msg timestamp="20190404 13:34:37.767" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20190404 13:34:37.767" endtime="20190404 13:34:39.626"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:24.182" endtime="20190403 18:50:26.217"></status>
+<status status="PASS" starttime="20190404 13:34:37.767" endtime="20190404 13:34:39.626"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>League Category Landing</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:26.218" endtime="20190403 18:50:26.218"></status>
+<status status="PASS" starttime="20190404 13:34:39.627" endtime="20190404 13:34:39.627"></status>
 </kw>
-<kw name="Navigate To Page" library="BleacherSmoke">
+<kw name="Navigate_To_Page" library="BleacherSmoke">
 <tags>
 <tag>Go to BleacherReport url</tag>
 </tags>
@@ -1527,23 +1631,23 @@ Index 11: 0 != 2</status>
 <arguments>
 <arg>Navigating to BleacherReport.com</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:26.219" endtime="20190403 18:50:26.220"></status>
+<status status="PASS" starttime="20190404 13:34:39.628" endtime="20190404 13:34:39.628"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>${br_url}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:26.220" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
-<status status="PASS" starttime="20190403 18:50:26.220" endtime="20190403 18:50:32.086"></status>
+<msg timestamp="20190404 13:34:39.629" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
+<status status="PASS" starttime="20190404 13:34:39.628" endtime="20190404 13:34:44.710"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190403 18:50:32.087" endtime="20190403 18:50:32.552"></status>
+<status status="PASS" starttime="20190404 13:34:44.711" endtime="20190404 13:34:44.979"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:26.219" endtime="20190403 18:50:32.552"></status>
+<status status="PASS" starttime="20190404 13:34:39.627" endtime="20190404 13:34:44.979"></status>
 </kw>
-<kw name="League Category Landing Pages" library="BleacherSmoke">
+<kw name="League_Category_Landing_Pages" library="BleacherSmoke">
 <tags>
 <tag>League Category Landing Pages</tag>
 </tags>
@@ -1567,8 +1671,8 @@ Index 11: 0 != 2</status>
 <assign>
 <var>@{ITEMS}</var>
 </assign>
-<msg timestamp="20190403 18:50:32.554" level="INFO">@{ITEMS} = [ //a[contains(text(),'NFL')] | //a[contains(text(),'CFB')] | //a[contains(text(),'NBA')] | //a[contains(text(),'World Football')] | //a[contains(text(),'MLB')] | //a[contains(text(),'NHL')] | //a[con...</msg>
-<status status="PASS" starttime="20190403 18:50:32.553" endtime="20190403 18:50:32.554"></status>
+<msg timestamp="20190404 13:34:44.981" level="INFO">@{ITEMS} = [ //a[contains(text(),'NFL')] | //a[contains(text(),'CFB')] | //a[contains(text(),'NBA')] | //a[contains(text(),'World Football')] | //a[contains(text(),'MLB')] | //a[contains(text(),'NHL')] | //a[con...</msg>
+<status status="PASS" starttime="20190404 13:34:44.980" endtime="20190404 13:34:44.981"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
@@ -1589,16 +1693,16 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${Expected_Headers}</var>
 </assign>
-<msg timestamp="20190403 18:50:32.555" level="INFO">${Expected_Headers} = ['NFL', 'COLLEGE FOOTBALL', 'NBA', 'WORLD FOOTBALL', 'MLB', 'NHL', 'COLLEGE BASKETBALL', 'MMA', 'WWE', 'GOLF', 'TENNIS', 'BOXING']</msg>
-<status status="PASS" starttime="20190403 18:50:32.554" endtime="20190403 18:50:32.555"></status>
+<msg timestamp="20190404 13:34:44.981" level="INFO">${Expected_Headers} = ['NFL', 'COLLEGE FOOTBALL', 'NBA', 'WORLD FOOTBALL', 'MLB', 'NHL', 'COLLEGE BASKETBALL', 'MMA', 'WWE', 'GOLF', 'TENNIS', 'BOXING']</msg>
+<status status="PASS" starttime="20190404 13:34:44.981" endtime="20190404 13:34:44.981"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
 <assign>
 <var>${Actual_Headers}</var>
 </assign>
-<msg timestamp="20190403 18:50:32.556" level="INFO">${Actual_Headers} = []</msg>
-<status status="PASS" starttime="20190403 18:50:32.555" endtime="20190403 18:50:32.556"></status>
+<msg timestamp="20190404 13:34:44.982" level="INFO">${Actual_Headers} = []</msg>
+<status status="PASS" starttime="20190404 13:34:44.982" endtime="20190404 13:34:44.982"></status>
 </kw>
 <kw name="${ELEMENT} IN [ @{ITEMS} ]" type="for">
 <kw name="${ELEMENT} = //a[contains(text(),'NFL')]" type="foritem">
@@ -1608,30 +1712,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:32.556" endtime="20190403 18:50:32.811"></status>
+<status status="PASS" starttime="20190404 13:34:44.982" endtime="20190404 13:34:45.098"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:32.811" level="INFO">//a[contains(text(),'NFL')]</msg>
-<status status="PASS" starttime="20190403 18:50:32.811" endtime="20190403 18:50:32.811"></status>
+<msg timestamp="20190404 13:34:45.098" level="INFO">//a[contains(text(),'NFL')]</msg>
+<status status="PASS" starttime="20190404 13:34:45.098" endtime="20190404 13:34:45.098"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:32.812" level="INFO">Clicking element '//a[contains(text(),'NFL')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:32.811" endtime="20190403 18:50:36.018"></status>
+<msg timestamp="20190404 13:34:45.099" level="INFO">Clicking element '//a[contains(text(),'NFL')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:45.099" endtime="20190404 13:34:47.935"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:36.019" endtime="20190403 18:50:36.355"></status>
+<status status="PASS" starttime="20190404 13:34:47.935" endtime="20190404 13:34:47.956"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -1641,15 +1745,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:50:36.591" level="INFO">${header_text} = NFL</msg>
-<status status="PASS" starttime="20190403 18:50:36.355" endtime="20190403 18:50:36.591"></status>
+<msg timestamp="20190404 13:34:47.975" level="INFO">${header_text} = NFL</msg>
+<status status="PASS" starttime="20190404 13:34:47.956" endtime="20190404 13:34:47.975"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:36.591" endtime="20190403 18:50:36.592"></status>
+<status status="PASS" starttime="20190404 13:34:47.976" endtime="20190404 13:34:47.976"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1657,9 +1761,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:36.592" endtime="20190403 18:50:36.593"></status>
+<status status="PASS" starttime="20190404 13:34:47.976" endtime="20190404 13:34:47.976"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:32.556" endtime="20190403 18:50:36.593"></status>
+<status status="PASS" starttime="20190404 13:34:44.982" endtime="20190404 13:34:47.976"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'CFB')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1668,30 +1772,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:36.593" endtime="20190403 18:50:36.801"></status>
+<status status="PASS" starttime="20190404 13:34:47.976" endtime="20190404 13:34:48.079"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:36.801" level="INFO">//a[contains(text(),'CFB')]</msg>
-<status status="PASS" starttime="20190403 18:50:36.801" endtime="20190403 18:50:36.801"></status>
+<msg timestamp="20190404 13:34:48.079" level="INFO">//a[contains(text(),'CFB')]</msg>
+<status status="PASS" starttime="20190404 13:34:48.079" endtime="20190404 13:34:48.079"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:36.802" level="INFO">Clicking element '//a[contains(text(),'CFB')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:36.802" endtime="20190403 18:50:40.288"></status>
+<msg timestamp="20190404 13:34:48.080" level="INFO">Clicking element '//a[contains(text(),'CFB')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:48.080" endtime="20190404 13:34:50.555"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:40.288" endtime="20190403 18:50:40.607"></status>
+<status status="PASS" starttime="20190404 13:34:50.555" endtime="20190404 13:34:50.571"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -1701,15 +1805,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:50:40.850" level="INFO">${header_text} = COLLEGE FOOTBALL</msg>
-<status status="PASS" starttime="20190403 18:50:40.607" endtime="20190403 18:50:40.850"></status>
+<msg timestamp="20190404 13:34:50.590" level="INFO">${header_text} = COLLEGE FOOTBALL</msg>
+<status status="PASS" starttime="20190404 13:34:50.572" endtime="20190404 13:34:50.590"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:40.850" endtime="20190403 18:50:40.851"></status>
+<status status="PASS" starttime="20190404 13:34:50.590" endtime="20190404 13:34:50.590"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1717,9 +1821,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:40.851" endtime="20190403 18:50:40.851"></status>
+<status status="PASS" starttime="20190404 13:34:50.590" endtime="20190404 13:34:50.591"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:36.593" endtime="20190403 18:50:40.851"></status>
+<status status="PASS" starttime="20190404 13:34:47.976" endtime="20190404 13:34:50.591"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'NBA')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1728,30 +1832,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:40.852" endtime="20190403 18:50:41.060"></status>
+<status status="PASS" starttime="20190404 13:34:50.591" endtime="20190404 13:34:50.693"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:41.060" level="INFO">//a[contains(text(),'NBA')]</msg>
-<status status="PASS" starttime="20190403 18:50:41.060" endtime="20190403 18:50:41.060"></status>
+<msg timestamp="20190404 13:34:50.694" level="INFO">//a[contains(text(),'NBA')]</msg>
+<status status="PASS" starttime="20190404 13:34:50.694" endtime="20190404 13:34:50.694"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:41.061" level="INFO">Clicking element '//a[contains(text(),'NBA')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:41.061" endtime="20190403 18:50:45.120"></status>
+<msg timestamp="20190404 13:34:50.694" level="INFO">Clicking element '//a[contains(text(),'NBA')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:50.694" endtime="20190404 13:34:53.805"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:45.121" endtime="20190403 18:50:45.353"></status>
+<status status="PASS" starttime="20190404 13:34:53.805" endtime="20190404 13:34:53.824"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -1761,15 +1865,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:50:45.590" level="INFO">${header_text} = NBA</msg>
-<status status="PASS" starttime="20190403 18:50:45.353" endtime="20190403 18:50:45.590"></status>
+<msg timestamp="20190404 13:34:53.842" level="INFO">${header_text} = NBA</msg>
+<status status="PASS" starttime="20190404 13:34:53.824" endtime="20190404 13:34:53.842"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:45.590" endtime="20190403 18:50:45.591"></status>
+<status status="PASS" starttime="20190404 13:34:53.843" endtime="20190404 13:34:53.843"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1777,9 +1881,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:45.591" endtime="20190403 18:50:45.591"></status>
+<status status="PASS" starttime="20190404 13:34:53.843" endtime="20190404 13:34:53.843"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:40.851" endtime="20190403 18:50:45.591"></status>
+<status status="PASS" starttime="20190404 13:34:50.591" endtime="20190404 13:34:53.843"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'World Football')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1788,30 +1892,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:45.591" endtime="20190403 18:50:45.798"></status>
+<status status="PASS" starttime="20190404 13:34:53.843" endtime="20190404 13:34:53.946"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:45.798" level="INFO">//a[contains(text(),'World Football')]</msg>
-<status status="PASS" starttime="20190403 18:50:45.798" endtime="20190403 18:50:45.798"></status>
+<msg timestamp="20190404 13:34:53.947" level="INFO">//a[contains(text(),'World Football')]</msg>
+<status status="PASS" starttime="20190404 13:34:53.946" endtime="20190404 13:34:53.947"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:45.799" level="INFO">Clicking element '//a[contains(text(),'World Football')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:45.799" endtime="20190403 18:50:50.117"></status>
+<msg timestamp="20190404 13:34:53.947" level="INFO">Clicking element '//a[contains(text(),'World Football')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:53.947" endtime="20190404 13:34:56.983"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:50.118" endtime="20190403 18:50:50.346"></status>
+<status status="PASS" starttime="20190404 13:34:56.983" endtime="20190404 13:34:57.002"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -1821,15 +1925,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:50:50.582" level="INFO">${header_text} = WORLD FOOTBALL</msg>
-<status status="PASS" starttime="20190403 18:50:50.347" endtime="20190403 18:50:50.582"></status>
+<msg timestamp="20190404 13:34:57.021" level="INFO">${header_text} = WORLD FOOTBALL</msg>
+<status status="PASS" starttime="20190404 13:34:57.003" endtime="20190404 13:34:57.021"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:50.582" endtime="20190403 18:50:50.583"></status>
+<status status="PASS" starttime="20190404 13:34:57.021" endtime="20190404 13:34:57.022"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1837,9 +1941,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:50.583" endtime="20190403 18:50:50.583"></status>
+<status status="PASS" starttime="20190404 13:34:57.022" endtime="20190404 13:34:57.022"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:45.591" endtime="20190403 18:50:50.583"></status>
+<status status="PASS" starttime="20190404 13:34:53.843" endtime="20190404 13:34:57.022"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'MLB')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1848,30 +1952,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:50.583" endtime="20190403 18:50:50.792"></status>
+<status status="PASS" starttime="20190404 13:34:57.022" endtime="20190404 13:34:57.124"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:50.792" level="INFO">//a[contains(text(),'MLB')]</msg>
-<status status="PASS" starttime="20190403 18:50:50.792" endtime="20190403 18:50:50.792"></status>
+<msg timestamp="20190404 13:34:57.125" level="INFO">//a[contains(text(),'MLB')]</msg>
+<status status="PASS" starttime="20190404 13:34:57.125" endtime="20190404 13:34:57.125"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:50.793" level="INFO">Clicking element '//a[contains(text(),'MLB')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:50.792" endtime="20190403 18:50:54.454"></status>
+<msg timestamp="20190404 13:34:57.125" level="INFO">Clicking element '//a[contains(text(),'MLB')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:57.125" endtime="20190404 13:34:59.579"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:54.454" endtime="20190403 18:50:54.685"></status>
+<status status="PASS" starttime="20190404 13:34:59.579" endtime="20190404 13:34:59.596"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -1881,15 +1985,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:50:54.930" level="INFO">${header_text} = MLB</msg>
-<status status="PASS" starttime="20190403 18:50:54.686" endtime="20190403 18:50:54.930"></status>
+<msg timestamp="20190404 13:34:59.614" level="INFO">${header_text} = MLB</msg>
+<status status="PASS" starttime="20190404 13:34:59.596" endtime="20190404 13:34:59.614"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:54.930" endtime="20190403 18:50:54.930"></status>
+<status status="PASS" starttime="20190404 13:34:59.614" endtime="20190404 13:34:59.615"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1897,9 +2001,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:54.931" endtime="20190403 18:50:54.931"></status>
+<status status="PASS" starttime="20190404 13:34:59.615" endtime="20190404 13:34:59.615"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:50.583" endtime="20190403 18:50:54.931"></status>
+<status status="PASS" starttime="20190404 13:34:57.022" endtime="20190404 13:34:59.615"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'NHL')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1908,30 +2012,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:54.931" endtime="20190403 18:50:55.139"></status>
+<status status="PASS" starttime="20190404 13:34:59.615" endtime="20190404 13:34:59.718"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:55.139" level="INFO">//a[contains(text(),'NHL')]</msg>
-<status status="PASS" starttime="20190403 18:50:55.139" endtime="20190403 18:50:55.140"></status>
+<msg timestamp="20190404 13:34:59.718" level="INFO">//a[contains(text(),'NHL')]</msg>
+<status status="PASS" starttime="20190404 13:34:59.718" endtime="20190404 13:34:59.718"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:55.140" level="INFO">Clicking element '//a[contains(text(),'NHL')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:55.140" endtime="20190403 18:50:58.837"></status>
+<msg timestamp="20190404 13:34:59.719" level="INFO">Clicking element '//a[contains(text(),'NHL')]'.</msg>
+<status status="PASS" starttime="20190404 13:34:59.718" endtime="20190404 13:35:02.199"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:58.837" endtime="20190403 18:50:59.120"></status>
+<status status="PASS" starttime="20190404 13:35:02.199" endtime="20190404 13:35:02.216"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -1941,15 +2045,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:50:59.370" level="INFO">${header_text} = NHL</msg>
-<status status="PASS" starttime="20190403 18:50:59.121" endtime="20190403 18:50:59.370"></status>
+<msg timestamp="20190404 13:35:02.234" level="INFO">${header_text} = NHL</msg>
+<status status="PASS" starttime="20190404 13:35:02.216" endtime="20190404 13:35:02.234"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:59.370" endtime="20190403 18:50:59.371"></status>
+<status status="PASS" starttime="20190404 13:35:02.234" endtime="20190404 13:35:02.235"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1957,9 +2061,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:59.371" endtime="20190403 18:50:59.371"></status>
+<status status="PASS" starttime="20190404 13:35:02.235" endtime="20190404 13:35:02.235"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:54.931" endtime="20190403 18:50:59.372"></status>
+<status status="PASS" starttime="20190404 13:34:59.615" endtime="20190404 13:35:02.235"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'CBB')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -1968,30 +2072,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:50:59.372" endtime="20190403 18:50:59.579"></status>
+<status status="PASS" starttime="20190404 13:35:02.235" endtime="20190404 13:35:02.338"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:59.579" level="INFO">//a[contains(text(),'CBB')]</msg>
-<status status="PASS" starttime="20190403 18:50:59.579" endtime="20190403 18:50:59.579"></status>
+<msg timestamp="20190404 13:35:02.339" level="INFO">//a[contains(text(),'CBB')]</msg>
+<status status="PASS" starttime="20190404 13:35:02.339" endtime="20190404 13:35:02.339"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:50:59.580" level="INFO">Clicking element '//a[contains(text(),'CBB')]'.</msg>
-<status status="PASS" starttime="20190403 18:50:59.580" endtime="20190403 18:51:02.803"></status>
+<msg timestamp="20190404 13:35:02.339" level="INFO">Clicking element '//a[contains(text(),'CBB')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:02.339" endtime="20190404 13:35:04.122"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:02.803" endtime="20190403 18:51:03.034"></status>
+<status status="PASS" starttime="20190404 13:35:04.122" endtime="20190404 13:35:04.188"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -2001,15 +2105,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:51:03.269" level="INFO">${header_text} = COLLEGE BASKETBALL</msg>
-<status status="PASS" starttime="20190403 18:51:03.034" endtime="20190403 18:51:03.269"></status>
+<msg timestamp="20190404 13:35:04.207" level="INFO">${header_text} = COLLEGE BASKETBALL</msg>
+<status status="PASS" starttime="20190404 13:35:04.188" endtime="20190404 13:35:04.207"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:03.269" endtime="20190403 18:51:03.270"></status>
+<status status="PASS" starttime="20190404 13:35:04.207" endtime="20190404 13:35:04.207"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -2017,9 +2121,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:03.270" endtime="20190403 18:51:03.270"></status>
+<status status="PASS" starttime="20190404 13:35:04.207" endtime="20190404 13:35:04.208"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:59.372" endtime="20190403 18:51:03.270"></status>
+<status status="PASS" starttime="20190404 13:35:02.235" endtime="20190404 13:35:04.208"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'MMA')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -2028,30 +2132,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:03.270" endtime="20190403 18:51:03.476"></status>
+<status status="PASS" starttime="20190404 13:35:04.208" endtime="20190404 13:35:04.310"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:03.476" level="INFO">//a[contains(text(),'MMA')]</msg>
-<status status="PASS" starttime="20190403 18:51:03.476" endtime="20190403 18:51:03.476"></status>
+<msg timestamp="20190404 13:35:04.310" level="INFO">//a[contains(text(),'MMA')]</msg>
+<status status="PASS" starttime="20190404 13:35:04.310" endtime="20190404 13:35:04.310"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:03.477" level="INFO">Clicking element '//a[contains(text(),'MMA')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:03.477" endtime="20190403 18:51:07.656"></status>
+<msg timestamp="20190404 13:35:04.311" level="INFO">Clicking element '//a[contains(text(),'MMA')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:04.310" endtime="20190404 13:35:07.012"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:07.656" endtime="20190403 18:51:08.003"></status>
+<status status="PASS" starttime="20190404 13:35:07.013" endtime="20190404 13:35:07.029"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -2061,15 +2165,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:51:08.243" level="INFO">${header_text} = MMA</msg>
-<status status="PASS" starttime="20190403 18:51:08.003" endtime="20190403 18:51:08.244"></status>
+<msg timestamp="20190404 13:35:07.063" level="INFO">${header_text} = MMA</msg>
+<status status="PASS" starttime="20190404 13:35:07.029" endtime="20190404 13:35:07.063"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:08.244" endtime="20190403 18:51:08.244"></status>
+<status status="PASS" starttime="20190404 13:35:07.063" endtime="20190404 13:35:07.064"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -2077,9 +2181,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:08.244" endtime="20190403 18:51:08.245"></status>
+<status status="PASS" starttime="20190404 13:35:07.064" endtime="20190404 13:35:07.064"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:03.270" endtime="20190403 18:51:08.245"></status>
+<status status="PASS" starttime="20190404 13:35:04.208" endtime="20190404 13:35:07.064"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'WWE')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -2088,30 +2192,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:08.245" endtime="20190403 18:51:08.453"></status>
+<status status="PASS" starttime="20190404 13:35:07.064" endtime="20190404 13:35:07.166"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:08.454" level="INFO">//a[contains(text(),'WWE')]</msg>
-<status status="PASS" starttime="20190403 18:51:08.453" endtime="20190403 18:51:08.454"></status>
+<msg timestamp="20190404 13:35:07.167" level="INFO">//a[contains(text(),'WWE')]</msg>
+<status status="PASS" starttime="20190404 13:35:07.167" endtime="20190404 13:35:07.167"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:08.455" level="INFO">Clicking element '//a[contains(text(),'WWE')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:08.455" endtime="20190403 18:51:11.474"></status>
+<msg timestamp="20190404 13:35:07.167" level="INFO">Clicking element '//a[contains(text(),'WWE')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:07.167" endtime="20190404 13:35:09.376"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:11.474" endtime="20190403 18:51:11.709"></status>
+<status status="PASS" starttime="20190404 13:35:09.376" endtime="20190404 13:35:09.392"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -2121,15 +2225,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:51:11.945" level="INFO">${header_text} = WWE</msg>
-<status status="PASS" starttime="20190403 18:51:11.709" endtime="20190403 18:51:11.945"></status>
+<msg timestamp="20190404 13:35:09.410" level="INFO">${header_text} = WWE</msg>
+<status status="PASS" starttime="20190404 13:35:09.392" endtime="20190404 13:35:09.410"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:11.945" endtime="20190403 18:51:11.945"></status>
+<status status="PASS" starttime="20190404 13:35:09.410" endtime="20190404 13:35:09.411"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -2137,9 +2241,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:11.945" endtime="20190403 18:51:11.946"></status>
+<status status="PASS" starttime="20190404 13:35:09.411" endtime="20190404 13:35:09.411"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:08.245" endtime="20190403 18:51:11.946"></status>
+<status status="PASS" starttime="20190404 13:35:07.064" endtime="20190404 13:35:09.411"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'Golf')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -2148,30 +2252,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:11.946" endtime="20190403 18:51:12.152"></status>
+<status status="PASS" starttime="20190404 13:35:09.412" endtime="20190404 13:35:09.515"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:12.153" level="INFO">//a[contains(text(),'Golf')]</msg>
-<status status="PASS" starttime="20190403 18:51:12.153" endtime="20190403 18:51:12.153"></status>
+<msg timestamp="20190404 13:35:09.516" level="INFO">//a[contains(text(),'Golf')]</msg>
+<status status="PASS" starttime="20190404 13:35:09.515" endtime="20190404 13:35:09.516"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:12.153" level="INFO">Clicking element '//a[contains(text(),'Golf')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:12.153" endtime="20190403 18:51:15.906"></status>
+<msg timestamp="20190404 13:35:09.516" level="INFO">Clicking element '//a[contains(text(),'Golf')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:09.516" endtime="20190404 13:35:12.140"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:15.906" endtime="20190403 18:51:16.140"></status>
+<status status="PASS" starttime="20190404 13:35:12.140" endtime="20190404 13:35:12.157"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -2181,15 +2285,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:51:16.378" level="INFO">${header_text} = GOLF</msg>
-<status status="PASS" starttime="20190403 18:51:16.141" endtime="20190403 18:51:16.378"></status>
+<msg timestamp="20190404 13:35:12.178" level="INFO">${header_text} = GOLF</msg>
+<status status="PASS" starttime="20190404 13:35:12.157" endtime="20190404 13:35:12.178"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:16.378" endtime="20190403 18:51:16.378"></status>
+<status status="PASS" starttime="20190404 13:35:12.179" endtime="20190404 13:35:12.179"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -2197,9 +2301,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:16.379" endtime="20190403 18:51:16.379"></status>
+<status status="PASS" starttime="20190404 13:35:12.179" endtime="20190404 13:35:12.179"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:11.946" endtime="20190403 18:51:16.379"></status>
+<status status="PASS" starttime="20190404 13:35:09.411" endtime="20190404 13:35:12.179"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'Tennis')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -2208,30 +2312,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:16.379" endtime="20190403 18:51:16.587"></status>
+<status status="PASS" starttime="20190404 13:35:12.179" endtime="20190404 13:35:12.283"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:16.587" level="INFO">//a[contains(text(),'Tennis')]</msg>
-<status status="PASS" starttime="20190403 18:51:16.587" endtime="20190403 18:51:16.588"></status>
+<msg timestamp="20190404 13:35:12.283" level="INFO">//a[contains(text(),'Tennis')]</msg>
+<status status="PASS" starttime="20190404 13:35:12.283" endtime="20190404 13:35:12.283"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:16.588" level="INFO">Clicking element '//a[contains(text(),'Tennis')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:16.588" endtime="20190403 18:51:20.126"></status>
+<msg timestamp="20190404 13:35:12.284" level="INFO">Clicking element '//a[contains(text(),'Tennis')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:12.283" endtime="20190404 13:35:14.613"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:20.126" endtime="20190403 18:51:20.358"></status>
+<status status="PASS" starttime="20190404 13:35:14.613" endtime="20190404 13:35:14.630"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -2241,15 +2345,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:51:20.614" level="INFO">${header_text} = TENNIS</msg>
-<status status="PASS" starttime="20190403 18:51:20.358" endtime="20190403 18:51:20.614"></status>
+<msg timestamp="20190404 13:35:14.648" level="INFO">${header_text} = TENNIS</msg>
+<status status="PASS" starttime="20190404 13:35:14.630" endtime="20190404 13:35:14.649"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:20.614" endtime="20190403 18:51:20.614"></status>
+<status status="PASS" starttime="20190404 13:35:14.649" endtime="20190404 13:35:14.649"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -2257,9 +2361,9 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:20.615" endtime="20190403 18:51:20.615"></status>
+<status status="PASS" starttime="20190404 13:35:14.649" endtime="20190404 13:35:14.649"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:16.379" endtime="20190403 18:51:20.615"></status>
+<status status="PASS" starttime="20190404 13:35:12.179" endtime="20190404 13:35:14.649"></status>
 </kw>
 <kw name="${ELEMENT} = //a[contains(text(),'Boxing')]" type="foritem">
 <kw name="Set Window Size" library="SeleniumLibrary">
@@ -2268,30 +2372,30 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:20.616" endtime="20190403 18:51:20.822"></status>
+<status status="PASS" starttime="20190404 13:35:14.650" endtime="20190404 13:35:14.752"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:20.823" level="INFO">//a[contains(text(),'Boxing')]</msg>
-<status status="PASS" starttime="20190403 18:51:20.822" endtime="20190403 18:51:20.823"></status>
+<msg timestamp="20190404 13:35:14.753" level="INFO">//a[contains(text(),'Boxing')]</msg>
+<status status="PASS" starttime="20190404 13:35:14.752" endtime="20190404 13:35:14.753"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${ELEMENT}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:20.823" level="INFO">Clicking element '//a[contains(text(),'Boxing')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:20.823" endtime="20190403 18:51:24.420"></status>
+<msg timestamp="20190404 13:35:14.753" level="INFO">Clicking element '//a[contains(text(),'Boxing')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:14.753" endtime="20190404 13:35:17.132"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${category_css_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:24.420" endtime="20190403 18:51:24.703"></status>
+<status status="PASS" starttime="20190404 13:35:17.132" endtime="20190404 13:35:17.152"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
@@ -2301,15 +2405,15 @@ Index 11: 0 != 2</status>
 <assign>
 <var>${header_text}</var>
 </assign>
-<msg timestamp="20190403 18:51:24.954" level="INFO">${header_text} = BOXING</msg>
-<status status="PASS" starttime="20190403 18:51:24.703" endtime="20190403 18:51:24.954"></status>
+<msg timestamp="20190404 13:35:17.170" level="INFO">${header_text} = BOXING</msg>
+<status status="PASS" starttime="20190404 13:35:17.152" endtime="20190404 13:35:17.170"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:24.954" endtime="20190403 18:51:24.955"></status>
+<status status="PASS" starttime="20190404 13:35:17.170" endtime="20190404 13:35:17.170"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -2317,18 +2421,18 @@ Index 11: 0 != 2</status>
 <arg>${Actual_Headers}</arg>
 <arg>${header_text}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:24.955" endtime="20190403 18:51:24.955"></status>
+<status status="PASS" starttime="20190404 13:35:17.170" endtime="20190404 13:35:17.171"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:20.615" endtime="20190403 18:51:24.955"></status>
+<status status="PASS" starttime="20190404 13:35:14.649" endtime="20190404 13:35:17.171"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:32.556" endtime="20190403 18:51:24.955"></status>
+<status status="PASS" starttime="20190404 13:34:44.982" endtime="20190404 13:35:17.171"></status>
 </kw>
 <kw name="Log List" library="Collections">
 <doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
 <arguments>
 <arg>${Actual_Headers}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:24.956" level="INFO">List length is 12 and it contains following items:
+<msg timestamp="20190404 13:35:17.171" level="INFO">List length is 12 and it contains following items:
 0: NFL
 1: COLLEGE FOOTBALL
 2: NBA
@@ -2341,7 +2445,7 @@ Index 11: 0 != 2</status>
 9: GOLF
 10: TENNIS
 11: BOXING</msg>
-<status status="PASS" starttime="20190403 18:51:24.956" endtime="20190403 18:51:24.956"></status>
+<status status="PASS" starttime="20190404 13:35:17.171" endtime="20190404 13:35:17.171"></status>
 </kw>
 <kw name="Lists Should Be Equal" library="Collections">
 <doc>Fails if given lists are unequal.</doc>
@@ -2349,18 +2453,18 @@ Index 11: 0 != 2</status>
 <arg>${Expected_Headers}</arg>
 <arg>${Actual_Headers}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:24.956" endtime="20190403 18:51:24.956"></status>
+<status status="PASS" starttime="20190404 13:35:17.171" endtime="20190404 13:35:17.171"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:32.552" endtime="20190403 18:51:24.957"></status>
+<status status="PASS" starttime="20190404 13:34:44.979" endtime="20190404 13:35:17.172"></status>
 </kw>
 <kw name="End Web Test" library="Common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190403 18:51:24.957" endtime="20190403 18:51:25.589"></status>
+<status status="PASS" starttime="20190404 13:35:17.172" endtime="20190404 13:35:17.548"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:24.957" endtime="20190403 18:51:25.590"></status>
+<status status="PASS" starttime="20190404 13:35:17.172" endtime="20190404 13:35:17.548"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:50:24.182" endtime="20190403 18:51:25.590" critical="yes"></status>
+<status status="PASS" starttime="20190404 13:34:37.766" endtime="20190404 13:35:17.548" critical="yes"></status>
 </test>
 <test id="s1-t6" name="Non League Categories Landing Page Test">
 <kw name="Begin Web Test" library="Common" type="setup">
@@ -2370,19 +2474,19 @@ Index 11: 0 != 2</status>
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:25.594" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20190403 18:51:25.592" endtime="20190403 18:51:28.041"></status>
+<msg timestamp="20190404 13:35:17.550" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20190404 13:35:17.550" endtime="20190404 13:35:19.425"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:25.592" endtime="20190403 18:51:28.041"></status>
+<status status="PASS" starttime="20190404 13:35:17.549" endtime="20190404 13:35:19.425"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Non League Category Landing</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:28.042" endtime="20190403 18:51:28.043"></status>
+<status status="PASS" starttime="20190404 13:35:19.426" endtime="20190404 13:35:19.426"></status>
 </kw>
-<kw name="Navigate To Page" library="BleacherSmoke">
+<kw name="Navigate_To_Page" library="BleacherSmoke">
 <tags>
 <tag>Go to BleacherReport url</tag>
 </tags>
@@ -2391,23 +2495,23 @@ Index 11: 0 != 2</status>
 <arguments>
 <arg>Navigating to BleacherReport.com</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:28.044" endtime="20190403 18:51:28.045"></status>
+<status status="PASS" starttime="20190404 13:35:19.426" endtime="20190404 13:35:19.427"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>${br_url}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:28.045" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
-<status status="PASS" starttime="20190403 18:51:28.045" endtime="20190403 18:51:36.207"></status>
+<msg timestamp="20190404 13:35:19.427" level="INFO">Opening url 'https://bleacherreport.com/'</msg>
+<status status="PASS" starttime="20190404 13:35:19.427" endtime="20190404 13:35:24.607"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190403 18:51:36.208" endtime="20190403 18:51:36.778"></status>
+<status status="PASS" starttime="20190404 13:35:24.607" endtime="20190404 13:35:24.874"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:28.044" endtime="20190403 18:51:36.778"></status>
+<status status="PASS" starttime="20190404 13:35:19.426" endtime="20190404 13:35:24.874"></status>
 </kw>
-<kw name="Non League Categories" library="BleacherSmoke">
+<kw name="Non_League_Categories" library="BleacherSmoke">
 <tags>
 <tag>Non League Category Landing Pages</tag>
 </tags>
@@ -2418,15 +2522,23 @@ Index 11: 0 != 2</status>
 <arg>2000</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:36.780" endtime="20190403 18:51:36.993"></status>
+<status status="PASS" starttime="20190404 13:35:24.875" endtime="20190404 13:35:24.983"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${brlive_header}</arg>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20190404 13:35:24.983" endtime="20190404 13:35:25.090"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${brlive_header}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:36.994" level="INFO">Clicking element '//a[contains(.,'B/R Live')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:36.994" endtime="20190403 18:51:41.547"></status>
+<msg timestamp="20190404 13:35:25.090" level="INFO">Clicking element '//a[contains(.,'B/R Live')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:25.090" endtime="20190404 13:35:28.872"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -2434,26 +2546,26 @@ Index 11: 0 != 2</status>
 <arg>${br_live_page_confirm}</arg>
 <arg>10</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:41.547" endtime="20190403 18:51:41.799"></status>
+<status status="PASS" starttime="20190404 13:35:28.873" endtime="20190404 13:35:28.896"></status>
 </kw>
 <kw name="Go Back" library="SeleniumLibrary">
 <doc>Simulates the user clicking the back button on their browser.</doc>
-<status status="PASS" starttime="20190403 18:51:41.800" endtime="20190403 18:51:48.876"></status>
+<status status="PASS" starttime="20190404 13:35:28.896" endtime="20190404 13:35:31.685"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${mag_header}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:48.876" endtime="20190403 18:51:49.126"></status>
+<status status="PASS" starttime="20190404 13:35:31.685" endtime="20190404 13:35:31.708"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${mag_header}</arg>
 </arguments>
-<msg timestamp="20190403 18:51:49.127" level="INFO">Clicking element '//a[contains(.,'Mag')]'.</msg>
-<status status="PASS" starttime="20190403 18:51:49.126" endtime="20190403 18:51:56.528"></status>
+<msg timestamp="20190404 13:35:31.708" level="INFO">Clicking element '//a[contains(.,'Mag')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:31.708" endtime="20190404 13:35:38.285"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -2461,11 +2573,11 @@ Index 11: 0 != 2</status>
 <arg>${mag_page_confirm}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:51:56.529" endtime="20190403 18:51:56.767"></status>
+<status status="PASS" starttime="20190404 13:35:38.286" endtime="20190404 13:35:38.342"></status>
 </kw>
 <kw name="Go Back" library="SeleniumLibrary">
 <doc>Simulates the user clicking the back button on their browser.</doc>
-<status status="PASS" starttime="20190403 18:51:56.767" endtime="20190403 18:52:01.216"></status>
+<status status="PASS" starttime="20190404 13:35:38.342" endtime="20190404 13:35:41.252"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -2473,15 +2585,15 @@ Index 11: 0 != 2</status>
 <arg>${get_app_header}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:52:01.217" endtime="20190403 18:52:01.458"></status>
+<status status="PASS" starttime="20190404 13:35:41.252" endtime="20190404 13:35:41.274"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${get_app_header}</arg>
 </arguments>
-<msg timestamp="20190403 18:52:01.459" level="INFO">Clicking element '//a[contains(.,'Get the App')]'.</msg>
-<status status="PASS" starttime="20190403 18:52:01.458" endtime="20190403 18:52:03.004"></status>
+<msg timestamp="20190404 13:35:41.274" level="INFO">Clicking element '//a[contains(.,'Get the App')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:41.274" endtime="20190404 13:35:42.121"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -2489,15 +2601,15 @@ Index 11: 0 != 2</status>
 <arg>${get_app_page_confirm}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:52:03.004" endtime="20190403 18:52:03.244"></status>
+<status status="PASS" starttime="20190404 13:35:42.121" endtime="20190404 13:35:42.143"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${tickets_header}</arg>
 </arguments>
-<msg timestamp="20190403 18:52:03.245" level="INFO">Clicking element '//a[contains(.,'Tickets')]'.</msg>
-<status status="PASS" starttime="20190403 18:52:03.244" endtime="20190403 18:52:06.920"></status>
+<msg timestamp="20190404 13:35:42.143" level="INFO">Clicking element '//a[contains(.,'Tickets')]'.</msg>
+<status status="PASS" starttime="20190404 13:35:42.143" endtime="20190404 13:35:44.293"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
@@ -2505,31 +2617,31 @@ Index 11: 0 != 2</status>
 <arg>${tickets_page_confirm}</arg>
 <arg>${default_timeout}</arg>
 </arguments>
-<status status="PASS" starttime="20190403 18:52:06.920" endtime="20190403 18:52:07.342"></status>
+<status status="PASS" starttime="20190404 13:35:44.293" endtime="20190404 13:35:44.556"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:36.779" endtime="20190403 18:52:07.343"></status>
+<status status="PASS" starttime="20190404 13:35:24.874" endtime="20190404 13:35:44.556"></status>
 </kw>
 <kw name="End Web Test" library="Common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190403 18:52:07.345" endtime="20190403 18:52:07.786"></status>
+<status status="PASS" starttime="20190404 13:35:44.557" endtime="20190404 13:35:44.816"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:52:07.343" endtime="20190403 18:52:07.787"></status>
+<status status="PASS" starttime="20190404 13:35:44.556" endtime="20190404 13:35:44.817"></status>
 </kw>
-<status status="PASS" starttime="20190403 18:51:25.591" endtime="20190403 18:52:07.787" critical="yes"></status>
+<status status="PASS" starttime="20190404 13:35:17.549" endtime="20190404 13:35:44.817" critical="yes"></status>
 </test>
 <doc>Bleacher Report Smoke Test</doc>
-<status status="FAIL" starttime="20190403 18:49:26.158" endtime="20190403 18:52:07.790"></status>
+<status status="PASS" starttime="20190404 13:33:50.280" endtime="20190404 13:35:44.818"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="5" fail="1">Critical Tests</stat>
-<stat pass="5" fail="1">All Tests</stat>
+<stat pass="6" fail="0">Critical Tests</stat>
+<stat pass="6" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="5" fail="1" id="s1" name="Launch">Launch</stat>
+<stat pass="6" fail="0" id="s1" name="Launch">Launch</stat>
 </suite>
 </statistics>
 <errors>
