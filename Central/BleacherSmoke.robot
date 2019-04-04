@@ -133,7 +133,7 @@ League_Category_Landing_Pages
     Lists Should Be Equal   ${Expected_Headers}   ${Actual_Headers}
 
 
-Non_League_Categories
+Non_League_Category_Landing_Pages
     [Tags]  Non League Category Landing Pages
     [Documentation]  Clicks on each of the Non League Categories and confirms that the landing page is displayed.
     Set Window Size  2000  800

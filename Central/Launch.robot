@@ -42,8 +42,8 @@ League Category Landing Page Test
     BleacherSmoke.Navigate_To_Page
     BleacherSmoke.League_Category_Landing_Pages
 
-Non League Categories Landing Page Test
+Non League Category Landing Page Test
     Log To Console  Non League Category Landing
     BleacherSmoke.Navigate_To_Page
-    BleacherSmoke.Non_League_Categories
+    BleacherSmoke.Non_League_Category_Landing_Pages
 
