@@ -137,14 +137,14 @@ Non_League_Category_Landing_Pages
     [Tags]  Non League Category Landing Pages
     [Documentation]  Clicks on each of the Non League Categories in the menu and confirms that the landing page is displayed.
     Set Window Size  2000  800
-    Wait Until Element is Visible  ${brlive_header}    ${default_timeout}
+    ${Browser_Back}=  run keyword and return status   Wait Until Element is Visible  ${brlive_header}    ${default_timeout}
     Click Element   ${brlive_header}
     Wait Until Element is Visible   ${br_live_page_confirm}   10
-    Go Back
-    Wait Until Element is Visible  ${mag_header}
+    Run Keyword If   ${Browser_Back}   Go Back
+    Wait Until Element is Visible  ${mag_header}  8
     Click Element   ${mag_header}
     Wait Until Element is Visible   ${mag_page_confirm}  ${default_timeout}
-    Go Back
+    Run Keyword If   ${Browser_Back}   Go Back
     Wait Until Element is Visible   ${get_app_header}  ${default_timeout}
     Click Element  ${get_app_header}
     Wait Until Element is Visible   ${get_app_page_confirm}  ${default_timeout}
