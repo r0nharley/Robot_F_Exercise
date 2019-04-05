@@ -84,4 +84,5 @@ ${mag_page_confirm}             //p[@class='intro']
 ${get_app_page_confirm}         //h1[contains(.,'Stay ahead of the game')]
 ${tickets_page_confirm}         //h1[contains(.,'StubHub - Where Fans Buy & Sell Tickets')]
 ${category_css_header}          css=h1 span
+${logout_btn}                   //a[contains(.,'Logout')]
 
