@@ -17,3 +17,14 @@ def common_words(a, b):
 a = ['apple', 'orange', 'grape', 'banana']
 b = ['plum', 'peach', 'apple', 'mango', 'grape']
 common_words(a, b)
+
+
+#Alternative Solution
+
+def common_words_2(list1,list2):
+    
+    return list(set(list1).intersection(list2))
+
+list1 = map(str.lower,['apple','orange','grape', 'banana'])
+list2 = map(str.lower,['plum','peach','Apple', 'Grape'])
+print(common_words_2(list1, list2))
