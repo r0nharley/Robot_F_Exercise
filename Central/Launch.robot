@@ -47,3 +47,6 @@ Non League Category Landing Page Test
     BleacherSmoke.Navigate_To_Page
     BleacherSmoke.Non_League_Category_Landing_Pages
 
+
+API Tests
+    BleacherSmoke.API_Tests

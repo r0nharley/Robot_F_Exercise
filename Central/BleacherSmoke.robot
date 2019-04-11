@@ -2,6 +2,9 @@
 Library  SeleniumLibrary
 Library  String
 Library  Collections
+Library  RequestsLibrary
+Library  DateTime
+#Library  JSONLibrary
 
 Resource   ${EXECDIR}/Central/Common.robot
 Resource   ${EXECDIR}/Central/Variables.robot
@@ -11,6 +14,7 @@ Resource   ${EXECDIR}/Central/Variables.robot
 
 *** Variables ***
 
+${ScoresAPIUrl}  http://scores2.bleacherreport.com
 
 *** Keywords ***
 
@@ -87,6 +91,10 @@ Existing_User_Login
     Input Password  ${password_field}  ${login_password}
     Click Button  ${signin_btn}
     Wait Until Element is Visible  ${existing_user_loggedin}  ${default_timeout}
+    Create Session   BR    http://bleacherreport.com
+    ${response}=  Get Request   BR   /users/11218076
+    log to console  ${response.status_code}
+    #log to console  ${response.content}
 
 
 Menu_Item_Count
@@ -150,3 +158,18 @@ Non_League_Category_Landing_Pages
     Wait Until Element is Visible   ${get_app_page_confirm}  ${default_timeout}
     Click Element  ${tickets_header}
     Wait Until Element is Visible   ${tickets_page_confirm}  ${default_timeout}
+
+
+API_Tests
+    ${date}=  Get Current Date
+    Create Session   BRScores    ${ScoresAPIUrl}
+    ${response}=  Get Request   BRScores   /api/v1/scores/league/NBA/Basketball?date=${date}
+    ${actual_code}=  convert to string  ${response.status_code}
+    should be equal  ${actual_code}  200
+#    ${json_res}=  to json  ${response.content}
+#    log to console  ${json_res}
+#    ${}  get value from json
+
+
+
+
