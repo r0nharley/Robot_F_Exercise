@@ -1,4 +1,4 @@
-# BR Robot Framework and Python Coding Exercise
+#Robot Framework and Python Coding Exercise
 
 
 ## Robot Framework
